@@ -33,12 +33,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/templete.min.css') }}">
     <link class="skin" rel="stylesheet" type="text/css" href="{{ asset('css/skin/skin-1.css') }}">
+
     <!-- Revolution Slider Css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('plugins/revolution/revolution/css/layers.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('plugins/revolution/revolution/css/settings.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('plugins/revolution/revolution/css/navigation.css') }}">
     <!-- Revolution Navigation Style -->
 </head>
+
 <body id="bg">
 <div class="page-wraper">
     <div id="loading-area"></div>
@@ -261,305 +263,11 @@
         </div>
         <!-- Main Slider -->
 
-        <div class="section-full bg-white content-inner-2" style="background-image:url(images/background/bg7.jpg); background-size: cover;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 m-b30 align-self-center">
-                        <div class="dis-tbl-cell  m-b30">
-                            <h2 class="m-t0 m-b10">Why Our Clients Choose Us </h2>
-                            <h6 class="fw7 m-b15">We are the leading beauty salon in LA providing high-quality hairdressing, makeup, and skin care services to everyone.</h6>
-                            <ul class="list-angle-right">
-                                <li>fully focused on accessibility</li>
-                                <li>Based on modern design concept</li>
-                                <li>impressive and attractive design with graceful features</li>
-                                <li>More creative with smoothness and flexibility </li>
-                                <li>Unlimited power and customization possibilities</li>
-                            </ul>
-                            <a href="#" class="site-button m-r15">About US <i class="ti-arrow-right m-l10"></i></a>
-                            <a href="#" class="site-button-secondry ">Read More <i class="ti-arrow-right m-l10"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 offset-lg-1">
-                        <div class="img-collage">
-                            <div class="coll-1"><img src="{{ asset('images/collage/pic1.jpg') }}" alt=""></div>
-                            <div class="coll-2"><img src="{{ asset('images/collage/pic2.jpg') }}" alt=""></div>
-                            <div class="coll-3"><img src="{{ asset('images/collage/pic3.jpg') }}" alt=""></div>
-                            <div class="coll-4"><img src="{{ asset('images/collage/pic4.jpg') }}" alt=""></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- About Us -->
-        <div class="section-full bg-white content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}), url({{ asset('images/background/bg2.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
-            <div class="container">
-                <div class="section-head text-black text-center">
-                    <h2 class="text-primary m-b10">Our Services</h2>
-                    <h6 class="m-b10">You Will Like To Look Like Goddes Every Day!</h6>
-                    <div class="dlab-separator-outer m-b0">
-                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
-                    </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-                </div>
-                <div class="img-carousel owl-carousel owl-theme owl-none owl-dots-primary-big owl-btn-center-lr owl-loade m-b30">
-
-                    <div class="item">
-                        <div class="service-box text-center">
-                            <div class="service-images m-b15">
-                                <img width="300" height="300" src="{{ asset('images/our-services/pic1.jpg') }}" alt=""/>
-                                <i class="flaticon-woman-1"></i>
-                            </div>
-                            <div class="service-content">
-                                <h6 class="text-uppercase"><a href="#" class="text-primary">Cosmetics</a></h6>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="service-box text-center">
-                            <div class="service-images m-b15">
-                                <img width="300" height="300" src="{{ asset('images/our-services/pic2.jpg') }}" alt=""/>
-                                <i class="flaticon-lotus"></i>
-                            </div>
-                            <div class="service-content">
-                                <h6 class="text-uppercase"><a href="#" class="text-primary">Hairdressing</a></h6>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="service-box text-center">
-                            <div class="service-images m-b15">
-                                <img width="300" height="300" src="{{ asset('images/our-services/pic3.jpg') }}" alt=""/>
-                                <i class="flaticon-candle"></i>
-                            </div>
-                            <div class="service-content">
-                                <h6 class="text-uppercase"><a href="#" class="text-primary">Body Treatments</a></h6>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- About Us End -->
-
-        <!-- Gallery -->
-        <div class="section-full content-inner-2 our-portfolio" style="background-image:url({{ asset('images/background/bg6.jpg') }}); background-size: cover;">
-            <div class="container">
-                <div class="section-head text-black text-center m-b20">
-                    <h2 class="text-primary m-b10">Gallery</h2>
-                    <div class="dlab-separator-outer m-b0">
-                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
-                    </div>
-                    <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="site-filters style1 clearfix center">
-                            <ul class="filters" data-toggle="buttons">
-                                <li data-filter="" class="btn active"><input type="radio"><a href="#"><span>All</span></a></li>
-                                <li data-filter="image-1" class="btn"><input type="radio"><a href="#"><span>Haircuts</span></a></li>
-                                <li data-filter="image-2" class="btn"><input type="radio"><a href="#"><span>Coloring</span></a></li>
-                                <li data-filter="image-3" class="btn"><input type="radio"><a href="#"><span>Highlights</span></a></li>
-                                <li data-filter="image-4" class="btn"><input type="radio"><a href="#"><span>Highlights</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix">
-                    <ul id="masonry" class="portfolio-box dlab-gallery-listing gallery-grid-4 gallery row lightgallery">
-                        <li class="image-1 image-4 card-container col-lg-3 col-md-3 col-sm-3">
-                            <div class="dlab-box">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/middle/image-1.jpg') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/middle/thumb/pic1.jpg') }}" data-src="{{ asset('images/gallery/image-1.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="dlab-box p-tb30 image-2">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/middle/image-2.jpg') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/middle/thumb/pic2.jpg') }}" data-src="{{ asset('images/gallery/image-2.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="image-2 card-container col-lg-6 col-md-6 col-sm-6">
-                            <div class="dlab-box m-b30">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img src="{{ asset('images/gallery/image-3.jpg') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/middle/thumb/pic3.jpg') }}" data-src="{{ asset('images/gallery/image-3.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="image-3 image-4 card-container col-lg-3 col-md-3 col-sm-3">
-                            <div class="dlab-box m-b30">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/middle/image-4.jpg') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="images/gallery/middle/thumb/pic4.jpg" data-src="images/gallery/image-4.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="dlab-box">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/middle/image-5.jpg') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="images/gallery/middle/thumb/pic5.jpg" data-src="images/gallery/image-5.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Why Chose Us End -->
-
-        <!-- Our Portfolio -->
-        <div class="section-full video-presentation overlay-black-dark bg-img-fix"  style="background-image:url({{ asset('images/background/bg1.jpg') }});">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 text-white text-center">
-                        <h2>Video Presentation </h2>
-                        <p class="max-w700 m-auto">In this video, our staff members tell about their work at Solari, how they achieve the best results for their clients every day and more. Click the Play button below to watch this presentation.</p>
-                        <div class="video-play-icon m-t50">
-                            <a href="https://www.youtube.com/watch?v=rICXf0UH7Cg" class="popup-youtube video"><i class="ti-control-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Our Portfolio END -->
-
-        <!-- Our Portfolio -->
-        <div class="section-full content-inner-2" style="background-image:url({{ asset('images/background/bg4.jpg') }}); background-position: bottom; background-size:cover;">
-            <div class="container">
-                <div class="section-head text-black text-center">
-                    <h2 class="text-primary m-b10">Testimonials From Parents</h2>
-                    <div class="dlab-separator-outer m-b0">
-                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
-                    </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-                <div class="testimonial-two-dots owl-carousel owl-theme owl-dots-primary-full owl-btn-center-lr owl-btn-3">
-                    <div class="item p-a5">
-                        <div class="testimonial-9">
-                            <div class="testimonial-pic radius style1"><img src="{{ asset('images/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
-                            <div class="testimonial-text">
-                                <p>BeautyZone was extremely creative and forward thinking.</p>
-                            </div>
-                            <div class="testimonial-detail"> <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> </div>
-                        </div>
-                    </div>
-                    <div class="item p-a5">
-                        <div class="testimonial-9">
-                            <div class="testimonial-pic radius style1"><img src="{{ asset('images/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
-                            <div class="testimonial-text">
-                                <p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
-                            </div>
-                            <div class="testimonial-detail"> <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> </div>
-                        </div>
-                    </div>
-                    <div class="item p-a5">
-                        <div class="testimonial-9">
-                            <div class="testimonial-pic radius style1"><img src="{{ asset('images/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
-                            <div class="testimonial-text">
-                                <p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
-                            </div>
-                            <div class="testimonial-detail"> <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Our Portfolio END -->
-
-
-    </div>
-    <!-- Content END-->
+    @yield('content')
 
     <!-- Footer -->
-    <footer class="site-footer text-uppercase footer-white">
-        <!-- Our Portfolio END -->
-        <div class="portfolio-gallery ">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="carousel-gallery dots-none owl-none owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1 mfp-gallery">
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic1.jpg') }}" data-source="{{ asset('images/gallery/pic1.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic1.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic2.jpg') }}" data-source="{{ asset('images/gallery/pic2.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic2.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic2.jpg') }}" data-source="{{ asset('images/gallery/pic3.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic3.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic4.jpg') }}" data-source="{{ asset('images/gallery/pic4.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic4.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item  dlab-box">
-                            <a href="{{ asset('images/gallery/pic5.jpg') }}" data-source="{{ asset('images/gallery/pic5.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic5.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic6.jpg') }}" data-source="{{ asset('images/gallery/pic6.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic6.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic7.jpg') }}" data-source="{{ asset('images/gallery/pic7.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic7.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="item dlab-box">
-                            <a href="{{ asset('images/gallery/pic8.jpg') }}" data-source="{{ asset('images/gallery/pic8.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-                                <img width="205" height="184" src="{{ asset('images/gallery/thumb/pic8.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <footer style="background-color: #FF5EA5 !important;" class="site-footer text-uppercase">
+
         <div class="footer-top">
             <div class="container wow fadeIn" data-wow-delay="0.5s">
                 <div class="row">
@@ -590,17 +298,6 @@
                         <div class="widget">
                             <h6 class="m-b30">Subscribe To Our Newsletter</h6>
                             <p class="text-capitalize m-b20">If you have any questions, you can contact with us so that we can give you a satisfying answer. Subscribe to our newsletter to get our latest products.</p>
-                            <div class="subscribe-form m-b20">
-                                <form class="dzSubscribe" action="https://beautyzone.dexignzone.com/xhtml/script/mailchamp.php" method="post">
-                                    <div class="dzSubscribeMsg"></div>
-                                    <div class="input-group">
-                                        <input name="dzEmail" required="required"  class="form-control" placeholder="Your Email Address" type="email">
-                                        <span class="input-group-btn">
-											<button name="submit" value="Submit" type="submit" class="site-button radius-xl">Subscribe</button>
-										</span>
-                                    </div>
-                                </form>
-                            </div>
                             <ul class="list-inline m-a0">
                                 <li><a href="https://web.facebook.com/kidstarmodels/?_rdc=1&_rdr" class="site-button facebook circle "><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="https://www.instagram.com/kid_starmodels/" class="site-button instagram circle "><i class="fa fa-instagram"></i></a></li>
@@ -611,21 +308,7 @@
             </div>
         </div>
         <!-- footer bottom part -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-left"> <span>Copyright © 2019 DexignZone</span> </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-right ">
-                        <div class="widget-link ">
-                            <ul>
-                                <li><a href="#"> Help Desk</a></li>
-                                <li><a href="#"> Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </footer>
     <!-- Footer END-->
     <button class="scroltop fa fa-chevron-up" ></button>
