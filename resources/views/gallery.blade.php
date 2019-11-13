@@ -5,254 +5,187 @@
 @stop
 
 @section('content')
-
-    <section class="page_title s-parallax s-overlay ls title-overlay s-py-25" style="background-position: 50% 1px;">
+    <div class="dlab-bnr-inr dlab-bnr-inr overlay-primary bg-pt" style="background-image:url({{ asset('images/banner/bnr2.jpg') }});">
         <div class="container">
-            <div class="row">
-
-                <div class="fw-divider-space hidden-below-lg mt-130"></div>
-                <div class="fw-divider-space hidden-above-lg mt-60"></div>
-
-                <div class="col-md-12 text-center">
-                    <h1 style="color: #653470;">Gallery</h1>
-                </div>
-
-                <div class="fw-divider-space hidden-below-lg mt-130"></div>
-                <div class="fw-divider-space hidden-above-lg mt-60"></div>
-
+            <div class="dlab-bnr-inr-entry">
+                <h1 class="text-white">Gallery</h1>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="ls s-py-60 s-py-md-90 container-px-5">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="d-none d-lg-block divider-30"></div>
-
-                <div class="col-lg-12">
-
-
-                    <div class="row isotope-wrapper masonry-layout c-gutter-5 c-mb-30" data-filters=".gallery-filters" style="position: relative; height: 2916.9px;">
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 0%; top: 0px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall1.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall1.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 innovations corporate" style="position: absolute; left: 49.9559%; top: 0px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall2.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall2.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 entertainment news innovations" style="position: absolute; left: 49.9559%; top: 470px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall3.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall3.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business entertainment" style="position: absolute; left: 0%; top: 698px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall4.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall4.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 innovations corporate" style="position: absolute; left: 49.9559%; top: 1093px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall5.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall5.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 entertainment news corporate" style="position: absolute; left: 0%; top: 1169px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall6.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall6.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news innovations" style="position: absolute; left: 49.9559%; top: 1564px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall7.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall7.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business entertainment corporate" style="position: absolute; left: 0%; top: 1823px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall8.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall8.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall9.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall9.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall10.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall10.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall11.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall11.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall12.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall12.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall13.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall13.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall14.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall14.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall15.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall15.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-sm-6 business news" style="position: absolute; left: 49.9559%; top: 2446px;">
-                            <div class="vertical-item item-gallery content-absolute text-center ls">
-                                <div class="item-media">
-                                    <img src="{{ asset('images/gallery/gall16.png') }}" alt="">
-                                    <div class="media-links">
-                                        <div class="links-wrap">
-                                            <a class="link-zoom photoswipe-link" title="" href="{{ asset('images/gallery/gall16.png') }}"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+    <div class="content-block">
+        <div class="section-full content-inner-2 portfolio-box">
+            <div class="container">
+                <div class="section-head text-black text-center m-b20">
+                    <h2 class="text-primary m-b10" style="font-family: 'Courgette', cursive;">Take a peek</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon">
+                            <i class="flaticon-spa text-primary"></i></div>
                     </div>
-                    <!-- .isotope-wrapper-->
-
                 </div>
 
-                <div class="d-none d-lg-block divider-70"></div>
-            </div>
+                <div class="clearfix">
+                    <ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery sp10" style="position: relative; height: 840.268px;">
+                        <li class="web design card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall1.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall1.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 233px; top: 0px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall2.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall2.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="branding design photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 0px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);">
+                                        <img src="{{ asset('images/gallery/main/gall3.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall3.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="web design card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 0px; top: 210px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall4.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall4.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="web branding card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 233px; top: 210px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall5.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall5.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising design photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 210px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall9.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall9.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="web branding card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 0px; top: 420px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall7.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall7.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising design photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 233px; top: 420px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall8.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall8.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="web photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 420px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall9.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall9.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 0px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall9.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall9.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="web design card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 233px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall10.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall10.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall11.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall11.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 @stop
