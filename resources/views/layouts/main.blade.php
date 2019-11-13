@@ -56,8 +56,8 @@
                 <div class="row d-flex justify-content-between">
                     <div class="dlab-topbar-left">
                         <ul>
-                            <li><i class="fa fa-phone m-r5"></i> 08181073065</li>
-                            <li><i class="fa fa-map-marker m-r5"></i> plot f6 abacha road GRA port Harcourt rivers state Nigeria</li>
+                            <li><i class="fa fa-phone m-r5"></i> 08181073065, 08091304065, 09014818914</li>
+                            <li><i class="fa fa-map-marker m-r5"></i> Plot f6 abacha road GRA, Port Harcourt, Rivers state, Nigeria</li>
                         </ul>
                     </div>
                     <div class="dlab-topbar-right topbar-social">
@@ -69,6 +69,7 @@
                 </div>
             </div>
         </div>
+
         <!-- main header -->
         <div class="sticky-header main-bar-wraper navbar-expand-lg">
             <div class="main-bar clearfix ">
@@ -84,6 +85,7 @@
                         <span></span>
                         <span></span>
                     </button>
+
                     <!-- main nav -->
                     <div class="header-nav navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
                         <ul class="nav navbar-nav">
@@ -131,9 +133,11 @@
                         <div class="widget widget_getintuch">
                             <h6 class="m-b30">Contact us</h6>
                             <ul>
-                                <li><i class="ti-location-pin"></i><strong>address</strong> plot f6 abacha road GRA port Harcourt rivers state Nigeria </li>
-                                <li><i class="ti-mobile"></i><strong>phone</strong>08181073065</li>
-                                <li><i class="ti-email"></i><strong>email</strong>info@kidstarmodels.com</li>
+                                <li><i class="ti-location-pin"></i><strong>Address</strong> Plot f6 Abacha road GRA, Port Harcourt, Rivers state, Nigeria </li>
+                                <li><i class="ti-mobile"></i><strong>Phone: </strong>08181073065</li>
+                                <li><i class="ti-mobile"></i><strong>Phone: </strong>08091304065</li>
+                                <li><i class="ti-mobile"></i><strong>Phone: </strong>09014818914</li>
+                                <li><i class="ti-email"></i><strong>Email: </strong>info@kidstarmodels.com</li>
                             </ul>
                         </div>
                     </div>
