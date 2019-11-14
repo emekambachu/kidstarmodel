@@ -36,3 +36,9 @@ Route::get('contact-us', function () {
 });
 
 Route::post('submit-contact', 'WebsiteController@contactForm');
+
+Auth::routes();
+
+Route::get('/admin', 'AdminController@index')->name('admin');
+
+

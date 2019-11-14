@@ -62,11 +62,10 @@
                 <div class="col-lg-6 col-md-6 m-b30">
                     <div class="p-a30 bg-gray clearfix">
                         <h4>Send us a message</h4>
-                        <div class="dzFormMsg"></div>
 
                         @include('includes.alerts')
 
-                        <form method="post" class="dzForm" action="{{ url('submit-contact') }}">
+                        <form method="post" action="{{ url('submit-contact') }}">
                             @csrf
                             <div class="row">
 
@@ -112,7 +111,7 @@
                                 </div>
 
                                 <div class="col-lg-12">
-                                    <button name="submit" type="submit" value="Submit" class="site-button "> <span>Submit</span> </button>
+                                    <button name="submit" type="submit" value="Submit" class="site-button"> <span>Submit</span> </button>
                                 </div>
 
                             </div>

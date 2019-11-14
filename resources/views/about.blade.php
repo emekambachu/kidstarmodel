@@ -45,7 +45,6 @@
                     <div class="col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 equal-col dis-tbl" style="height: 479px; background-color: #8A2BE2;">
                         <div class="p-a30 text-white dis-tbl-cell wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                             <p>BECOME ONE OF KID STAR MODELS Kid star models children are selected based on an industry driven criteria of looks, personality, behavior, disposition, talent and availability to ensure that they are qualified to work in the entertainment business.</p>
-                            <a href="{{ asset('about-us') }}" class="site-button white outline outline-2">Read More</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col" style="height: 479px;">
@@ -54,7 +53,6 @@
                     <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 equal-col dis-tbl" style="height: 479px;">
                         <div class="p-a30 text-white dis-tbl-cell wow fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
                             <p>We are in this business because we adore and respect children, and we take pride in treating them as our family. If you would like to set up a personal interview with kid star models please call ( +234 8181 0730 65 ).</p>
-                            <a href="{{ url('about-us') }}" class="site-button white">Read More</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col" style="height: 479px;">
@@ -98,7 +96,12 @@
                 </div>
 
                 <div class="section-head text-black text-center">
-                            Kid star models is a Nigeria port Harcourt-based organization. Registration no. 2511538 Vision “Kid star models has a broad vision for labor solidarity. We believe the entertainment community occupies a power platform to campaign for transformative change. To effect change, however, people working in the industry need to have a voice in their work. That “voice” can take many forms, from industry surveys to committee.</p>
+                    <h2 class="text-primary m-b10">Our Vision</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon">
+                            <i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>Kid star models is a Nigeria port Harcourt-based organization. Registration no. 2511538 Vision “Kid star models has a broad vision for labor solidarity. We believe the entertainment community occupies a power platform to campaign for transformative change. To effect change, however, people working in the industry need to have a voice in their work. That “voice” can take many forms, from industry surveys to committee.</p>
                 </div>
 
             </div>

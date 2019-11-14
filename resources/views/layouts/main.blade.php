@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="kidstar modelling agency, kidstar models porthacourt" />
     <meta name="author" content="" />
     <meta name="robots" content="" />
-    <meta name="description" content="kidstar modeling agency port hacourt Nigeria" />
-    <meta property="og:title" content="kidstar modeling agency port hacourt Nigeria" />
-    <meta property="og:description" content="kidstar modeling agency port hacourt Nigeria" />
+    <meta name="description" content="kidstar modeling agency, the first kid star modeling agency in Nigeria" />
+    <meta property="og:title" content="Kidstar models" />
+    <meta property="og:description" content="kidstar modeling agency, the first kid star modeling agency in Nigeria" />
     <meta property="og:image" content="kidstar modeling agency port hacourt Nigeria" />
     <meta name="format-detection" content="telephone=no">
 
@@ -60,7 +60,7 @@
                     <div class="dlab-topbar-left">
                         <ul>
                             <li><i class="fa fa-phone m-r5"></i> 08181073065, 08091304065, 09014818914</li>
-                            <li><i class="fa fa-map-marker m-r5"></i> Plot f6 abacha road GRA, Port Harcourt, Rivers state, Nigeria</li>
+                            <li><i class="fa fa-map-marker m-r5"></i> Plot F6 Abacha road GRA, Port Harcourt, Rivers state, Nigeria</li>
                         </ul>
                     </div>
                     <div class="dlab-topbar-right topbar-social">
@@ -72,7 +72,7 @@
                 </div>
             </div>
         </div>
-
+no
         <!-- main header -->
         <div class="sticky-header main-bar-wraper navbar-expand-lg">
             <div class="main-bar clearfix ">
