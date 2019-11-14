@@ -230,18 +230,74 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12">
+                                <div class="col-md-12">
                                     <div class="form-group">
+                                        <label>5. Why did you choose to be part of Kid Star Models Modeling Agency</label>
                                         <div class="input-group">
-                                            <input name="email" type="email" class="form-control" required="" placeholder="Your Email">
+                                            <input name="question5" type="text" required="" class="form-control" placeholder="Why did you choose to be part of Kid Star Models Modeling Agency">
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
+                                        <label>Parent Surname</label>
                                         <div class="input-group">
-                                            <textarea name="yourmessage" rows="4" class="form-control" required="" placeholder="Your Message..."></textarea>
+                                            <input name="parent_surname" type="text" required="" class="form-control" placeholder="Parent Surname">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Parent Other Names</label>
+                                        <div class="input-group">
+                                            <input name="parent_othernames" type="text" required="" class="form-control" placeholder="Parent Other Names">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Parent Mobile</label>
+                                        <div class="input-group">
+                                            <input name="parent_mobile" type="tel" required="" class="form-control" placeholder="Parent Mobile">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Parent Email</label>
+                                        <div class="input-group">
+                                            <input name="parent_email" type="email" class="form-control" required="" placeholder="Parent Email">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Parent Address</label>
+                                        <div class="input-group">
+                                            <input name="parent_address" type="text" required="" class="form-control" placeholder="Parent Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Payment Details ( E.g. Account Number, Account Name and Bank )</label>
+                                        <div class="input-group">
+                                            <input name="payment_details" type="text" required="" class="form-control" placeholder="Parent Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Proof of Payment ( E.g. Scanned copy of teller or Screenshot of online transaction )</label>
+                                        <div class="input-group">
+                                            <input name="payment_proof" type="file" class="form-control">
                                         </div>
                                     </div>
                                 </div>

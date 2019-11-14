@@ -44,7 +44,7 @@ class CreateApplicationsTable extends Migration
             $table->string('parent_email');
             $table->string('parent_address')->nullable();
 
-            $table->string('payment_type');
+            $table->string('payment_details');
             $table->string('payment_proof')->nullable();
 
             $table->boolean('status')->default('0');
