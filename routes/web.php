@@ -34,3 +34,5 @@ Route::get('little-miss-damsel-nigeria', function () {
 Route::get('contact-us', function () {
     return view('contact');
 });
+
+Route::post('submit-contact', 'WebsiteController@contactForm');

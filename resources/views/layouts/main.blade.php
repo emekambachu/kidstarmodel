@@ -40,7 +40,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('plugins/revolution/revolution/css/navigation.css') }}">
     <!-- Revolution Navigation Style -->
 
-    <!--Google fonts-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+
     <style>
         @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
     </style>

@@ -61,15 +61,19 @@
                 <!-- Left part start -->
                 <div class="col-lg-6 col-md-6 m-b30">
                     <div class="p-a30 bg-gray clearfix">
-                        <h4>Send Message Us</h4>
+                        <h4>Send us a message</h4>
                         <div class="dzFormMsg"></div>
-                        <form method="post" class="dzForm" action="">
+
+                        @include('includes.alerts')
+
+                        <form method="post" class="dzForm" action="{{ url('submit-contact') }}">
+                            @csrf
                             <div class="row">
 
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <div class="input-group">
-                                            <input name="name" type="text" required="" class="form-control" placeholder="Your Name">
+                                            <input name="fullname" type="text" required="" class="form-control" placeholder="Full Name">
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +97,16 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <div class="input-group">
-                                            <textarea name="message" rows="4" class="form-control" required="" placeholder="Your Message..."></textarea>
+                                            <textarea name="yourmessage" rows="4" class="form-control" required="" placeholder="Your Message..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            {!! NoCaptcha::renderJs() !!}
+                                            {!! NoCaptcha::display() !!}
                                         </div>
                                     </div>
                                 </div>
@@ -104,6 +117,7 @@
 
                             </div>
                         </form>
+
                     </div>
                 </div>
                 <!-- Left part END -->
