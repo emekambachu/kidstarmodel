@@ -8,7 +8,7 @@
     <div class="dlab-bnr-inr dlab-bnr-inr overlay-primary bg-pt" style="background-image:url({{ asset('images/banner/bnr2.jpg') }});">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">Gallery</h1>
+                <h1 class="text-white" style="font-family: 'Courgette', cursive;">Gallery</h1>
             </div>
         </div>
     </div>

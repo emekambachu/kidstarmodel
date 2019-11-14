@@ -72,7 +72,7 @@
                 </div>
             </div>
         </div>
-no
+
         <!-- main header -->
         <div class="sticky-header main-bar-wraper navbar-expand-lg">
             <div class="main-bar clearfix ">
@@ -99,7 +99,7 @@ no
 
                         <ul class="nav navbar-nav">
                             <li><a href="{{ url('gallery') }}">Gallery</a></li>
-                            <li><a href="{{ url('register') }}">Register</a></li>
+                            <li><a href="{{ url('registration') }}">Register</a></li>
                             <li><a href="{{ url('contact-us') }}">Contact</a></li>
                         </ul>
 

@@ -9,7 +9,7 @@
     <div class="dlab-bnr-inr overlay-primary" style="background-image:url({{ asset('images/banner/bnr1.jpg') }});">
         <div class="container">
             <div class="dlab-bnr-inr-entry">
-                <h1 class="text-white">About Us</h1>
+                <h1 class="text-white" style="font-family: 'Courgette', cursive;">About Us</h1>
             </div>
         </div>
     </div>

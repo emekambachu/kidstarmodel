@@ -104,7 +104,7 @@
                              data-paddingbottom="[0]"
                              data-paddingleft="[0]"
                              style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family: 'Courgette', cursive; border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                            <a href="{{ url('register') }}" class="site-button-secondry button-md">Register</a>
+                            <a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>
                         </div>
 
                     </li>
@@ -198,7 +198,7 @@
                              data-paddingright="[0]"
                              data-paddingbottom="[0]"
                              data-paddingleft="[0]"
-                             style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('register') }}" class="site-button-secondry button-md">Register</a>
+                             style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>
                         </div>
 
                     </li>

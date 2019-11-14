@@ -23,7 +23,7 @@ Route::get('gallery', function () {
     return view('gallery');
 });
 
-Route::get('register', function () {
+Route::get('registration', function () {
     return view('register');
 });
 
@@ -40,5 +40,12 @@ Route::post('submit-contact', 'WebsiteController@contactForm');
 Auth::routes();
 
 Route::get('/admin', 'AdminController@index')->name('admin');
+
+// Dashboard Page
+Route::get('admin/dashboard', 'AdminController@index')->name('admin-dashboard');
+
+//Manage Applications
+// Application Resource Controller
+Route::resource('admin/applications', 'ApplicationController');
 
 
