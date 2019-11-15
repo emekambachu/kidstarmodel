@@ -47,7 +47,7 @@ class CreateApplicationsTable extends Migration
             $table->string('payment_details');
             $table->string('payment_proof')->nullable();
 
-            $table->boolean('status')->default('0');
+            $table->boolean('paid')->default('0');
 
             $table->timestamps();
         });

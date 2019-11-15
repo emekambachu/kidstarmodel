@@ -24,16 +24,6 @@ class ApplicationController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('admin.applications.create');
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -76,8 +66,8 @@ class ApplicationController extends Controller
      */
     public function show($id)
     {
-        $user = Application::findOrFail($id);
-        return view('users.show', compact('user'));
+        $application = Application::findOrFail($id);
+        return view('admin.applications.show', compact('application'));
     }
 
     /**

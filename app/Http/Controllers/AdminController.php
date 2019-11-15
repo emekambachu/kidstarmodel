@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\User;
 use App\Application;
 use App\Image;
+use Illuminate\Support\Facades\App;
 
 class AdminController extends Controller
 {
@@ -22,6 +23,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.index');
+        $countAllApplications = Application::all()->count();
+        $countPaidApplications = Application::where('paid', True)->count();
+
+        return view('admin.index', compact('countAllApplications', 'countPaidApplications'));
     }
 }
