@@ -48,4 +48,8 @@ Route::get('admin/dashboard', 'AdminController@index')->name('admin-dashboard');
 // Application Resource Controller
 Route::resource('admin/applications', 'ApplicationController');
 
+Route::get('registration-complete', function () {
+    return view('registration-complete');
+});
+
 

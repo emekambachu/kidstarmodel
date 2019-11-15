@@ -34,6 +34,12 @@ class ApplicationController extends Controller
         //Request data from fields
         $input = $request->all();
 
+        request()->validate([
+
+            'image_id' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
+        ]);
+
         //Get Image
         if($file = $request->file('image_id')){
 
@@ -55,7 +61,7 @@ class ApplicationController extends Controller
         //session notification
         Session::flash('success',  'Application has been added');
 
-        return redirect()->back();
+        return redirect('registration-complete');
     }
 
     /**

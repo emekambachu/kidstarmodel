@@ -22,8 +22,20 @@
                 <!-- right part start -->
                 <div class="col-lg-4 col-md-4 d-flex">
                     <div class="p-a30 border m-b30 contact-area border-1 align-self-stretch ">
-                        <h4 class="m-b10" style="font-family: 'Courgette', cursive;">Become a Kidstar Model</h4>
-                        <p>If you have any questions simply use the following contact details.</p>
+                        <h4 class="m-b10" style="font-family: 'Courgette', cursive;">Steps to become a kidstar model</h4>
+                        <h6>Account Details</h6>
+                        <p>Kid star models<br>
+                            GTB<br>
+                            Number 0264844777 (NAIRA)<br><br>
+
+                            Kid star models<br>
+                            GTB<br>
+                            0471161692 (Dollar)</p><br><br>
+
+                        <p><strong>Step 1:</strong><br> Pay a sum of 30,000 Naira to our Nigerian Account, or $35 to our Dollar account. Above are our account details</p>
+                        <p><strong>Step 2:</strong><br> Fill in your details accurately and upload a scanned copy of your proof of payment, this will make our selection more efficient.</p>
+                        <p><strong>Step 3:</strong><br> Once payment has been approved, you would be sent a confirmation email.</p>
+                        <p>For more clarity please call our contacts at the bottom of the page or send us an email at info@kidstarmodels.com</p><br><br>
 
                         <div class="m-t20">
                             <ul class="dlab-social-icon dlab-social-icon-lg">
@@ -297,7 +309,7 @@
                                     <div class="form-group">
                                         <label>Proof of Payment ( E.g. Scanned copy of teller or Screenshot of online transaction )</label>
                                         <div class="input-group">
-                                            <input name="payment_proof" type="file" class="form-control">
+                                            <input name="image_id" type="file" class="form-control">
                                         </div>
                                     </div>
                                 </div>

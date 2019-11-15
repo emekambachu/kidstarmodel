@@ -15,6 +15,8 @@ class CreateApplicationsTable extends Migration
     {
         Schema::create('applications', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('image_id')->index()->unsigned()->nullable();
+            $table->foreign('image_id')->references('id')->on('images')->onDelete('cascade');
             $table->string('surname');
             $table->string('othernames');
             $table->integer('age');
@@ -45,7 +47,6 @@ class CreateApplicationsTable extends Migration
             $table->string('parent_address')->nullable();
 
             $table->string('payment_details');
-            $table->string('payment_proof')->nullable();
 
             $table->boolean('paid')->default('0');
 
