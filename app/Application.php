@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Application extends Model
 {
     protected $fillable = [
+        'image_id',
         'surname',
         'othernames',
         'age',
@@ -36,12 +37,10 @@ class Application extends Model
         'parent_email',
         'parent_address',
 
-        'payment_type',
+        'payment_details',
         'payment_proof',
 
-        'status'
-
-
+        'paid'
     ];
 
     public function image(){

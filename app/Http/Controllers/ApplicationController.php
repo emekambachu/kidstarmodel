@@ -31,14 +31,12 @@ class ApplicationController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'image_id'  => 'image|mimes:jpg,jpeg,png,gif|max:5048'
+        ]);
+
         //Request data from fields
         $input = $request->all();
-
-        request()->validate([
-
-            'image_id' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-
-        ]);
 
         //Get Image
         if($file = $request->file('image_id')){
@@ -58,6 +56,13 @@ class ApplicationController extends Controller
 
         Application::create($input);
 
+        Mail::send('emails.confirmed-deposits', $input, function ($message) use ($input) {
+            $message->from('info@kidstarmodels.com', 'Kidstar Models');
+            $message->to($input['parent_email'], $input['name'])->cc('info@kidstarmodels.com');
+            $message->replyTo('info@kidstarmodels.com', 'Kidstar Models');
+            $message->subject('Your Application has been Submitted');
+        });
+
         //session notification
         Session::flash('success',  'Application has been added');
 
@@ -76,13 +81,19 @@ class ApplicationController extends Controller
         return view('admin.applications.show', compact('application'));
     }
 
+    public function approve(Request $request, $id)
+    {
+        $application = Application::findOrFail($id);
+        return view('admin.applications.show', compact('application'));
+    }
+
     /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Application  $application
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request)
+    public function edit($id)
     {
         //
     }
@@ -94,7 +105,7 @@ class ApplicationController extends Controller
      * @param  \App\Application  $application
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Application $application)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -105,7 +116,7 @@ class ApplicationController extends Controller
      * @param  \App\Application  $application
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Application $application)
+    public function destroy(Request $request)
     {
         //
     }

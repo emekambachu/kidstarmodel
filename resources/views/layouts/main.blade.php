@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/kidstar_models_logo.png') }}" />
 
     <!-- PAGE TITLE HERE -->
-    <title>@yield('home') | Kidstar Modeling Agency </title>
+    <title>@yield('title') | Kidstar Modeling Agency </title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -127,7 +127,7 @@
                                 <li><a href="{{ url('about-us') }}">About</a></li>
                                 <li><a href="{{ url('little-miss-damsel-nigeria') }}">LMDN</a></li>
                                 <li><a href="{{ url('gallery') }}">Gallery</a></li>
-                                <li><a href="{{ url('register') }}">Register</a></li>
+                                <li><a href="{{ url('registration') }}">Register</a></li>
                                 <li><a href="{{ url('contact-us') }}">Contact</a></li>
                             </ul>
                         </div>

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Dashboard
+    @stop
+
 @section('content')
     <div class="container">
 
@@ -33,34 +37,62 @@
                 <table class="table">
                     <thead class="thead-dark">
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">S/N</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Othername</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Par Surname</th>
+                        <th scope="col">Par Other Names</th>
+                        <th scope="col">Par Mobile</th>
+                        <th scope="col">Par Email</th>
+                        <th scope="col">Payment Details</th>
+                        <th scope="col">Paid</th>
+                        <th scope="col">View</th>
                     </tr>
                     </thead>
                     <tbody>
+
+                    @foreach($applications as $index => $application)
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <th scope="row">{{ $index + $applications->firstItem() }}</th>
+                        <td>{{ $application->surname }}</td>
+                        <td>{{ $application->othernames }}</td>
+                        <td>{{ $application->age }}</td>
+                        <td>{{ $application->parent_surname }}</td>
+                        <td>{{ $application->parent_othernames }}</td>
+                        <td>{{ $application->parent_mobile }}</td>
+                        <td>{{ $application->parent_email }}</td>
+                        <td>{{ $application->payment_details }}</td>
+                        <td>
+                            @if($application->paid)
+                                <p class="text-success"><strong>PAID</strong></p>
+                            @else
+                                <form method="POST" action="{{ action('ApplicationController@approve', $application->id) }}">
+                                    @csrf
+                                    <button type="submit" class="btn btn-warning btn-md">
+                                        Delete
+                                    </button>
+                                </form>
+                            @endif
+                        </td>
+                        <td>
+                            <a href="{{ route('applications.show', $application->id) }}">
+                                <button class="btn btn-warning btn-md">View</button>
+                            </a>
+                        </td>
                     </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
+                    @endforeach
+
                     </tbody>
                 </table>
             </div>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    {{ $applications->appends(Request::all())->links() }}
+                </ul>
+            </nav>
+
         </div>
 
     </div>

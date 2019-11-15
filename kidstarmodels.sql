@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 14, 2019 at 04:33 PM
+-- Generation Time: Nov 15, 2019 at 12:32 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.5
 
@@ -31,6 +31,7 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `applications`;
 CREATE TABLE IF NOT EXISTS `applications` (
   `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `image_id` int(10) UNSIGNED DEFAULT NULL,
   `surname` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `othernames` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `age` int(11) NOT NULL,
@@ -58,12 +59,19 @@ CREATE TABLE IF NOT EXISTS `applications` (
   `parent_email` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `parent_address` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `payment_details` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `payment_proof` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `status` tinyint(1) NOT NULL DEFAULT '0',
+  `paid` tinyint(1) NOT NULL DEFAULT '0',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  PRIMARY KEY (`id`),
+  KEY `applications_image_id_index` (`image_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `applications`
+--
+
+INSERT INTO `applications` (`id`, `image_id`, `surname`, `othernames`, `age`, `health_issues`, `health_details`, `nationality`, `state`, `city`, `address`, `vital_state`, `school_name`, `school_class`, `height`, `bust`, `waist`, `hips`, `question1`, `question2`, `question3`, `question4`, `question5`, `parent_surname`, `parent_othernames`, `parent_mobile`, `parent_email`, `parent_address`, `payment_details`, `paid`, `created_at`, `updated_at`) VALUES
+(1, 3, 'Neutron', 'Neutron', 4, 0, 'ttttt', 'nigeria', 'georgia', 'rivers', 'tttttttttt', 'rrr', 'school name', 'school class', 'heught', 'bust', 'waist', 'hips', 'dddddddddddd', 'dddddddddd', 'ddddddddddddddd', 'ddddddddddddddd', 'dddddddddd', 'ddddddd', 'dddddd', 'ddddddd', 'www@email.com', 'wwwwwwww', 'wwwwwwwww', 0, '2019-11-15 11:18:17', '2019-11-15 11:18:17');
 
 -- --------------------------------------------------------
 
@@ -95,7 +103,16 @@ CREATE TABLE IF NOT EXISTS `images` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `images`
+--
+
+INSERT INTO `images` (`id`, `img`, `created_at`, `updated_at`) VALUES
+(1, '1573819367AdobeStock_35124379_Preview.jpeg', '2019-11-15 11:02:47', '2019-11-15 11:02:47'),
+(2, '1573819968AdobeStock_35124379_Preview.jpeg', '2019-11-15 11:12:49', '2019-11-15 11:12:49'),
+(3, '1573820296AdobeStock_35124379_Preview.jpeg', '2019-11-15 11:18:16', '2019-11-15 11:18:16');
 
 -- --------------------------------------------------------
 

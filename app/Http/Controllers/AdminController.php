@@ -23,9 +23,10 @@ class AdminController extends Controller
      */
     public function index()
     {
+        $applications = Application::paginate(10);
         $countAllApplications = Application::all()->count();
         $countPaidApplications = Application::where('paid', True)->count();
 
-        return view('admin.index', compact('countAllApplications', 'countPaidApplications'));
+        return view('admin.index', compact('countAllApplications', 'countPaidApplications', 'applications'));
     }
 }

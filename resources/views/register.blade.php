@@ -55,7 +55,7 @@
 
                         @include('includes.alerts')
 
-                        <form method="post" action="{{ route('applications.store') }}">
+                        <form method="post" action="{{ route('applications.store') }}" enctype="multipart/form-data">
                             @csrf
                             <div class="row">
 
@@ -102,7 +102,7 @@
                                     <div class="form-group">
                                         <label>Health Details (If yes ?)</label>
                                         <div class="input-group">
-                                            <input name="health_details" type="text" required="" class="form-control" placeholder="Health Details">
+                                            <input name="health_details" type="text" class="form-control" placeholder="Health Details">
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                                     <div class="form-group">
                                         <label>Payment Details ( E.g. Account Number, Account Name and Bank )</label>
                                         <div class="input-group">
-                                            <input name="payment_details" type="text" required="" class="form-control" placeholder="Parent Address">
+                                            <input name="payment_details" type="text" required="" class="form-control" placeholder="Payment Details">
                                         </div>
                                     </div>
                                 </div>
