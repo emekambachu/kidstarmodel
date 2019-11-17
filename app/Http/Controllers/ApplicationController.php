@@ -59,7 +59,7 @@ class ApplicationController extends Controller
 
         Mail::send('emails.registration', $input, function ($message) use ($input) {
             $message->from('info@kidstarmodels.com', 'Kidstar Models');
-            $message->to($input['parent_email'], $input['parent_surname'].' '.$input['parent_othernames'])->cc('info@kidstarmodels.com');
+            $message->to($input['parent_email'], $input['parent_surname'].' '.$input['parent_othernames'])->cc('info@kidstarmodels.com', 'kidstarmodels@gmail.com');
             $message->replyTo('info@kidstarmodels.com', 'Kidstar Models');
             $message->subject('Your Application has been Submitted');
         });
