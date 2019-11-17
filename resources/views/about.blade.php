@@ -101,7 +101,7 @@
                         <div class="dlab-separator text-primary style-icon">
                             <i class="flaticon-spa text-primary"></i></div>
                     </div>
-                    <p>Kid star models is a Nigeria port Harcourt-based organization. Registration no. 2511538 Vision “Kid star models has a broad vision for labor solidarity. We believe the entertainment community occupies a power platform to campaign for transformative change. To effect change, however, people working in the industry need to have a voice in their work. That “voice” can take many forms, from industry surveys to committee.</p>
+                    <p>Kid star models has a broad vision for labor solidarity. We believe the entertainment community occupies a power platform to campaign for transformative change. To effect change, however, people working in the industry need to have a voice in their work. That “voice” can take many forms, from industry surveys to committee.</p>
                 </div>
 
             </div>
