@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 
 // Add for authentication to work
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
 class ApplicationController extends Controller
@@ -56,9 +57,9 @@ class ApplicationController extends Controller
 
         Application::create($input);
 
-        Mail::send('emails.confirmed-deposits', $input, function ($message) use ($input) {
+        Mail::send('emails.registration', $input, function ($message) use ($input) {
             $message->from('info@kidstarmodels.com', 'Kidstar Models');
-            $message->to($input['parent_email'], $input['name'])->cc('info@kidstarmodels.com');
+            $message->to($input['parent_email'], $input['parent_surname'].' '.$input['parent_othernames'])->cc('info@kidstarmodels.com');
             $message->replyTo('info@kidstarmodels.com', 'Kidstar Models');
             $message->subject('Your Application has been Submitted');
         });
@@ -84,7 +85,38 @@ class ApplicationController extends Controller
     public function approve(Request $request, $id)
     {
         $application = Application::findOrFail($id);
-        return view('admin.applications.show', compact('application'));
+
+        if($application->paid){
+            $application->paid = 0;
+            Session::flash('danger', 'Application Disapproved');
+            $application->save();
+
+        }else{
+            $application->paid = 1;
+            Session::flash('success', 'Application Approved');
+            $application->save();
+
+        }
+
+        return redirect()->back();
+    }
+
+    public function paidApplications()
+    {
+        $applications = Application::where('paid', True)->paginate(15);
+        $countAllApplications = Application::all()->count();
+        $countPaidApplications = Application::where('paid', True)->count();
+
+        return view('admin.applications.paid-applications', compact('countAllApplications', 'countPaidApplications', 'applications'));
+    }
+
+    public function pendingApplications()
+    {
+        $applications = Application::where('paid', False)->paginate(15);
+        $countAllApplications = Application::all()->count();
+        $countPaidApplications = Application::where('paid', True)->count();
+
+        return view('admin.applications.pending-applications', compact('countAllApplications', 'countPaidApplications', 'applications'));
     }
 
     /**

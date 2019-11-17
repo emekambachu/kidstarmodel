@@ -37,13 +37,13 @@
                     <ul class="navbar-nav mr-auto">
                         @auth
                             <li class="nav-item">
-                                <a class="nav-link" href="">Dashboard</a>
+                                <a class="nav-link" href="{{ route('admin-dashboard') }}">Dashboard</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">All Applications</a>
+                                <a class="nav-link" href="{{ route('paid-applications') }}">Paid Applications</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">Paid Applications</a>
+                                <a class="nav-link" href="{{ route('pending-applications') }}">Pending Applications</a>
                             </li>
                         @endauth
                     </ul>

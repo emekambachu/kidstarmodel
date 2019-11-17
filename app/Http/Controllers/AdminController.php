@@ -23,7 +23,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $applications = Application::paginate(10);
+        $applications = Application::paginate(15);
         $countAllApplications = Application::all()->count();
         $countPaidApplications = Application::where('paid', True)->count();
 

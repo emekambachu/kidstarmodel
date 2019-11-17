@@ -34,6 +34,9 @@
 
         <div class="row justify-content-center mt-5">
             <div class="col-md-12">
+
+                @include('includes.alerts')
+
                 <table class="table">
                     <thead class="thead-dark">
                     <tr>
@@ -66,11 +69,18 @@
                         <td>
                             @if($application->paid)
                                 <p class="text-success"><strong>PAID</strong></p>
-                            @else
                                 <form method="POST" action="{{ action('ApplicationController@approve', $application->id) }}">
                                     @csrf
                                     <button type="submit" class="btn btn-warning btn-md">
-                                        Delete
+                                        Disapprove
+                                    </button>
+                                </form>
+                            @else
+                                <p class="text-danger"><strong>PENDING</strong></p>
+                                <form method="POST" action="{{ action('ApplicationController@approve', $application->id) }}">
+                                    @csrf
+                                    <button type="submit" class="btn btn-success btn-md">
+                                        Approve
                                     </button>
                                 </form>
                             @endif

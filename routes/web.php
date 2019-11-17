@@ -48,6 +48,15 @@ Route::get('admin/dashboard', 'AdminController@index')->name('admin-dashboard');
 // Application Resource Controller
 Route::resource('admin/applications', 'ApplicationController');
 
+// Fund User Form
+Route::post('/admin/applications/approve/{id}', ['uses' => 'ApplicationController@approve']);
+
+// Paid Applications
+Route::get('applications/paid-applications', 'ApplicationController@paidApplications')->name('paid-applications');
+
+// Pending Applications
+Route::get('applications/pending-applications', 'ApplicationController@pendingApplications')->name('pending-applications');
+
 Route::get('registration-complete', function () {
     return view('registration-complete');
 });
