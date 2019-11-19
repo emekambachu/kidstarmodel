@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Application;
 use App\Image;
-use Barryvdh\DomPDF\PDF;
+use Barryvdh\DomPDF\Facade as PDF;
 
 use Illuminate\Http\Request;
 
