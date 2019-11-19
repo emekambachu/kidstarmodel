@@ -178,6 +178,9 @@ return [
         // google recaptha
         Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
 
+        // for pdf conversion
+        Barryvdh\DomPDF\ServiceProvider::class,
+
     ],
 
     /*
@@ -231,6 +234,9 @@ return [
 
         // google recaptcha
         'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
+
+        // for pdf conversion
+        'PDF' => Barryvdh\DomPDF\Facade::class,
 
     ],
 

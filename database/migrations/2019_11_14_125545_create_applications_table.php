@@ -15,6 +15,7 @@ class CreateApplicationsTable extends Migration
     {
         Schema::create('applications', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('applicationid')->nullable();
             $table->integer('image_id')->index()->unsigned()->nullable();
             $table->foreign('image_id')->references('id')->on('images')->onDelete('cascade');
             $table->string('surname');
