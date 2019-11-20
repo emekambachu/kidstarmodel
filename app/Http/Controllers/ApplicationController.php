@@ -96,7 +96,7 @@ class ApplicationController extends Controller
 
         }else{
 
-            if($application->applicationid !== Null) {
+            if($application->applicationid === Null) {
 
                 // Generate Application ID
                 function generateAppicationId($length = 5)

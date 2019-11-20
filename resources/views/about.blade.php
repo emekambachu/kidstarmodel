@@ -71,8 +71,16 @@
                         <div class="dlab-separator text-primary style-icon">
                             <i class="flaticon-spa text-primary"></i></div>
                     </div>
-                    <p>Mission Kid star models promotes fair treatment, equal opportunity, and sustainable practices in the modeling/ fashion industry, from the runway to the factory floor. By assisting models and other stakeholders in understanding the laws applicable to them, and by encouraging them to have a voice in their work, kid star models common areas of concern in the modeling/fashion industry, conducts strategic research with leading research institutions to inform policy initiatives, and educates the children, parents, industry and the public about our core issues.<br><br>
-                        Kid star models is a Nigeria port Harcourt-based organization. Registration no. 2511538 Vision “Kid star models has a broad vision for labor solidarity. We believe the entertainment community occupies a power platform to campaign for transformative change. To effect change, however, people working in the industry need to have a voice in their work. That “voice” can take many forms, from industry surveys to committee.</p>
+                    <p>Mission Kid star models promotes fair treatment, equal opportunity, and sustainable practices in the modeling/ fashion industry, from the runway to the factory floor. By assisting models and other stakeholders in understanding the laws applicable to them, and by encouraging them to have a voice in their work, kid star models common areas of concern in the modeling/fashion industry, conducts strategic research with leading research institutions to inform policy initiatives, and educates the children, parents, industry and the public about our core issues.</p>
+                </div>
+
+                <div class="section-head text-black text-center">
+                    <h2 class="text-primary m-b10">Our Vision</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon">
+                            <i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>Models with a Cause kid star models aspires to foster a community of selfless and inspiring individuals who stand united in helping those across the globe afflicted by disaster and crisis, and in finding and providing ways to eradicate the disease, injustice, abuse, poverty, and ignorance that underlie human suffering.</p>
                 </div>
 
                 <div class="row">
@@ -96,12 +104,21 @@
                 </div>
 
                 <div class="section-head text-black text-center">
-                    <h2 class="text-primary m-b10">Our Vision</h2>
+                    <h2 class="text-primary m-b10">Our Values</h2>
                     <div class="dlab-separator-outer m-b0">
                         <div class="dlab-separator text-primary style-icon">
                             <i class="flaticon-spa text-primary"></i></div>
                     </div>
-                    <p>Kid star models has a broad vision for labor solidarity. We believe the entertainment community occupies a power platform to campaign for transformative change. To effect change, however, people working in the industry need to have a voice in their work. That “voice” can take many forms, from industry surveys to committee.</p>
+                    <p>Kid star models believes that Role Models lead by example. We are guided to Walk Our Talk by a set of altruistic values.</p>
+                </div>
+
+                <div class="section-head text-black text-center">
+                    <h2 class="text-primary m-b10">Commitment</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon">
+                            <i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>We are committed to taking action and supporting causes that aim to improve human life through the banishment of suffering. We take the idea of being role models seriously, and in this we are held accountable to ourselves and to each other, and to those who follow our example and depend on our advocacy and assistance.</p>
                 </div>
 
             </div>
