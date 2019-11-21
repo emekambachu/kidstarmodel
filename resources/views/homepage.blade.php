@@ -4,7 +4,95 @@
     Home
 @stop
 
+@section('styles')
+    <script>
+        function PopUp(hideOrshow) {
+            if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+            else document.getElementById('ac-wrapper').removeAttribute('style');
+        }
+        window.onload = function () {
+            setTimeout(function () {
+                PopUp('show');
+            }, 5000);
+        }
+    </script>
+
+    <style>
+        #ac-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, .6);
+            z-index: 1001;
+        }
+
+        @media screen and (max-width: 600px) {
+            #popup {
+                background: url({{ asset('images/popup_image_250.png') }}) no-repeat center;
+                width: 250px;
+                height: 250px;
+                border: 5px solid #000;
+                border-radius: 25px;
+                -moz-border-radius: 25px;
+                -webkit-border-radius: 25px;
+                box-shadow: #64686e 0px 0px 3px 3px;
+                -moz-box-shadow: #64686e 0px 0px 3px 3px;
+                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+                position: relative;
+                top: 150px;
+                left: 5%;
+            }
+        }
+
+        @media screen and (max-width: 900px) and (min-width: 601px) {
+            #popup {
+                background:url({{ asset('images/popup_image.png') }}) no-repeat center ;
+                width: 500px;
+                height: 500px;
+                border: 5px solid #000;
+                border-radius: 25px;
+                -moz-border-radius: 25px;
+                -webkit-border-radius: 25px;
+                box-shadow: #64686e 0px 0px 3px 3px;
+                -moz-box-shadow: #64686e 0px 0px 3px 3px;
+                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+                position: relative;
+                top: 150px;
+                left: 10%;
+            }
+        }
+
+        @media screen and (min-width: 901px){
+            #popup {
+                background:url({{ asset('images/popup_image.png') }}) no-repeat center ;
+                width: 500px;
+                height: 500px;
+                border: 5px solid #000;
+                border-radius: 25px;
+                -moz-border-radius: 25px;
+                -webkit-border-radius: 25px;
+                box-shadow: #64686e 0px 0px 3px 3px;
+                -moz-box-shadow: #64686e 0px 0px 3px 3px;
+                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+                position: relative;
+                top: 150px;
+                left: 30%;
+            }
+        }
+    </style>
+@stop
+
 @section('content')
+
+    <div id="ac-wrapper" style='display:none'>
+        <div id="popup">
+            <button class="btn btn-sm btn-primary" onclick="PopUp('hide')">
+                <i class="fa fa-close"></i>
+            </button>
+        </div>
+    </div>
 
 <!-- Content -->
 <div class="page-content bg-white">
@@ -427,3 +515,7 @@
     </div>
     <!-- Content END-->
     @stop
+
+@section('scripts')
+
+@stop

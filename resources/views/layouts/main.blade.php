@@ -47,6 +47,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
     </style>
+
+    @yield('styles')
+
 </head>
 
 <body id="bg">
@@ -54,6 +57,7 @@
     <div id="loading-area"></div>
     <!-- header -->
     <header class="site-header header center mo-left">
+
         <div class="top-bar bg-primary text-white">
             <div class="container">
                 <div class="row d-flex justify-content-between">
@@ -119,6 +123,7 @@
         <div class="footer-top">
             <div class="container wow fadeIn" data-wow-delay="0.5s">
                 <div class="row">
+
                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-3 col-5">
                         <div class="widget widget_services border-0">
                             <h6 class="m-b20">Quick Menu</h6>
@@ -132,6 +137,7 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-5">
                         <div class="widget widget_getintuch">
                             <h6 class="m-b30">Contact us</h6>
@@ -144,6 +150,7 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <div class="widget">
                             <h6 class="m-b30">Subscribe To Our Newsletter</h6>
@@ -154,6 +161,7 @@
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -161,8 +169,9 @@
 
     </footer>
     <!-- Footer END-->
-    <button class="scroltop fa fa-chevron-up" ></button>
+    <button class="scroltop fa fa-chevron-up"></button>
 </div>
+
 <!-- JAVASCRIPT FILES ========================================= -->
 <script src="{{ asset('js/jquery.min.js') }}"></script><!-- JQUERY.MIN JS -->
 <script src="{{ asset('plugins/wow/wow.js') }}"></script><!-- WOW JS -->
@@ -197,6 +206,9 @@
 <script src="{{ asset('plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
 <script src="{{ asset('plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
 <script src="{{ asset('js/rev.slider.js') }}"></script>
+
+@yield('scripts')
+
 <script>
     jQuery(document).ready(function() {
         'use strict';
