@@ -1,87 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Home
-@stop
-
-@section('styles')
-    <script>
-        function PopUp(hideOrshow) {
-            if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
-            else document.getElementById('ac-wrapper').removeAttribute('style');
-        }
-        window.onload = function () {
-            setTimeout(function () {
-                PopUp('show');
-            }, 5000);
-        }
-    </script>
-
-    <style>
-        #ac-wrapper {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, .6);
-            z-index: 1001;
-        }
-
-        @media screen and (max-width: 600px) {
-            #popup {
-                background: url({{ asset('images/popup_image_250.png') }}) no-repeat center;
-                width: 250px;
-                height: 250px;
-                border: 5px solid #000;
-                border-radius: 25px;
-                -moz-border-radius: 25px;
-                -webkit-border-radius: 25px;
-                box-shadow: #64686e 0px 0px 3px 3px;
-                -moz-box-shadow: #64686e 0px 0px 3px 3px;
-                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-                position: relative;
-                top: 150px;
-                left: 5%;
-            }
-        }
-
-        @media screen and (max-width: 900px) and (min-width: 601px) {
-            #popup {
-                background:url({{ asset('images/popup_image.png') }}) no-repeat center ;
-                width: 500px;
-                height: 500px;
-                border: 5px solid #000;
-                border-radius: 25px;
-                -moz-border-radius: 25px;
-                -webkit-border-radius: 25px;
-                box-shadow: #64686e 0px 0px 3px 3px;
-                -moz-box-shadow: #64686e 0px 0px 3px 3px;
-                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-                position: relative;
-                top: 150px;
-                left: 10%;
-            }
-        }
-
-        @media screen and (min-width: 901px){
-            #popup {
-                background:url({{ asset('images/popup_image.png') }}) no-repeat center ;
-                width: 500px;
-                height: 500px;
-                border: 5px solid #000;
-                border-radius: 25px;
-                -moz-border-radius: 25px;
-                -webkit-border-radius: 25px;
-                box-shadow: #64686e 0px 0px 3px 3px;
-                -moz-box-shadow: #64686e 0px 0px 3px 3px;
-                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-                position: relative;
-                top: 150px;
-                left: 30%;
-            }
-        }
-    </style>
+    Little Miss Damsel Nigeria
 @stop
 
 @section('content')
@@ -102,9 +22,9 @@
                 <!-- START REVOLUTION SLIDER 5.4.6.3 fullwidth mode -->
                 <div id="rev_slider_265_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3">
                     <ul>  <!-- SLIDE  -->
-                        <li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('images/main-slider/slide1.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('images/lmdn/slides/slide1.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="{{ asset('images/main-slider/slide4.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('images/lmdn/slides/slide1.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-shape tp-shapewrapper bg-primary tp-resizeme"
                                  id="slide-100-layer-1"
                                  data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
@@ -138,7 +58,7 @@
                                  data-paddingright="[0,0,0,0]"
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
-                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive;">Welcome to</div>
+                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">Little Miss</div>
 
                             <div class="tp-caption tp-resizeme text-primary"
                                  id="slide-200-layer-3"
@@ -156,7 +76,7 @@
                                  data-paddingright="[0,0,0,0]"
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[110,110,110,110]"
-                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive;">Kids Star Models</div>
+                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">Damsel Nigeria</div>
 
                             <div class="tp-caption tp-resizeme"
                                  id="slide-100-layer-5"
@@ -176,29 +96,30 @@
                                  style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('contact-us') }}" class="site-button button-md">Contact us</a>
                             </div>
 
-                            <div class="tp-caption tp-resizeme"
-                                 id="slide-100-layer-6"
-                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"
-                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"
-                                 data-width="['auto']"
-                                 data-height="['auto']"
-                                 data-type="button"
-                                 data-actions=''
-                                 data-responsive_offset="on"
-                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
-                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                 data-paddingtop="[0]"
-                                 data-paddingright="[0]"
-                                 data-paddingbottom="[0]"
-                                 data-paddingleft="[0]"
-                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family: 'Courgette', cursive; border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
-                                <a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>
-                            </div>
+{{--                            <div class="tp-caption tp-resizeme"--}}
+{{--                                 id="slide-100-layer-6"--}}
+{{--                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"--}}
+{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"--}}
+{{--                                 data-width="['auto']"--}}
+{{--                                 data-height="['auto']"--}}
+{{--                                 data-type="button"--}}
+{{--                                 data-actions=''--}}
+{{--                                 data-responsive_offset="on"--}}
+{{--                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'--}}
+{{--                                 data-textAlign="['inherit','inherit','inherit','inherit']"--}}
+{{--                                 data-paddingtop="[0]"--}}
+{{--                                 data-paddingright="[0]"--}}
+{{--                                 data-paddingbottom="[0]"--}}
+{{--                                 data-paddingleft="[0]"--}}
+{{--                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family: 'Courgette', cursive; border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">--}}
+{{--                                <a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>--}}
+{{--                            </div>--}}
+
                         </li>
 
                         <li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="{{ asset('images/main-slider/slide1.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('images/lmdn/slides/slide2.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-shape  tp-shapewrapper bg-primary tp-resizeme"
                                  id="slide-200-layer-1"
                                  data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
@@ -215,6 +136,7 @@
                                  data-paddingright="[0,0,0,0]"
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]" style="z-index: 15;border-color:rgba(0, 0, 0, 0.50);border-width:0px; border-radius:2px;"> </div>
+
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption tp-resizeme text-primary"
                                  id="slide-200-layer-2"
@@ -232,7 +154,7 @@
                                  data-paddingright="[0,0,0,0]"
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
-                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">The First Kids Modeling</div>
+                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive;">The First Kids Modeling</div>
 
                             <div class="tp-caption tp-resizeme text-primary"
                                  id="slide-200-layer-3"
@@ -250,7 +172,7 @@
                                  data-paddingright="[0,0,0,0]"
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[110,110,110,110]"
-                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;"> Agency in Nigeria</div>
+                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive;"> Agency in Nigeria</div>
 
                             <div class="tp-caption tp-resizeme"
                                  id="slide-100-layer-5"
@@ -270,28 +192,29 @@
                                  style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('contact-us') }}" class="site-button button-md">Contact us</a>
                             </div>
 
-                            <div class="tp-caption tp-resizeme"
-                                 id="slide-200-layer-6"
-                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"
-                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"
-                                 data-width="['auto']"
-                                 data-height="['auto']"
-                                 data-type="button"
-                                 data-actions=''
-                                 data-responsive_offset="on"
-                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
-                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                 data-paddingtop="[0]"
-                                 data-paddingright="[0]"
-                                 data-paddingbottom="[0]"
-                                 data-paddingleft="[0]"
-                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>
-                            </div>
+{{--                            <div class="tp-caption tp-resizeme"--}}
+{{--                                 id="slide-200-layer-6"--}}
+{{--                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"--}}
+{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"--}}
+{{--                                 data-width="['auto']"--}}
+{{--                                 data-height="['auto']"--}}
+{{--                                 data-type="button"--}}
+{{--                                 data-actions=''--}}
+{{--                                 data-responsive_offset="on"--}}
+{{--                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'--}}
+{{--                                 data-textAlign="['inherit','inherit','inherit','inherit']"--}}
+{{--                                 data-paddingtop="[0]"--}}
+{{--                                 data-paddingright="[0]"--}}
+{{--                                 data-paddingbottom="[0]"--}}
+{{--                                 data-paddingleft="[0]"--}}
+{{--                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>--}}
+{{--                            </div>--}}
+
                         </li>
 
                         <li data-index="rs-300" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="{{ asset('images/main-slider/slide5.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('images/lmdn/slides/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-shape  tp-shapewrapper bg-primary tp-resizeme"
                                  id="slide-300-layer-1"
                                  data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
@@ -389,31 +312,6 @@
                             <div class="coll-3"><img src="{{ asset('images/collage/pic3.jpg') }}" alt=""></div>
                             <div class="coll-4"><img src="{{ asset('images/collage/pic4.jpg') }}" alt=""></div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-full about-section bg-white">
-            <div class="container-fluid">
-                <div class="row equal-wraper">
-                    <div class="col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 equal-col dis-tbl" style="height: 479px; background-color: #8A2BE2;">
-                        <div class="p-a30 text-white dis-tbl-cell wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
-                            <p>BECOME ONE OF KID STAR MODELS Kid star models children are selected based on an industry driven criteria of looks, personality, behavior, disposition, talent and availability to ensure that they are qualified to work in the entertainment business.</p>
-                            <a href="{{ asset('about-us') }}" class="site-button white outline outline-2">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col" style="height: 479px;">
-                        <img src="{{ asset('images/about/img1.jpg') }}" class="abt-img img-cover equal-col" alt="" style="height: 479px;">
-                    </div>
-                    <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 equal-col dis-tbl" style="height: 479px;">
-                        <div class="p-a30 text-white dis-tbl-cell wow fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
-                            <p>We are in this business because we adore and respect children, and we take pride in treating them as our family. If you would like to set up a personal interview with kid star models please call ( +234 8181 0730 65 ).</p>
-                            <a href="{{ url('about-us') }}" class="site-button white">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col" style="height: 479px;">
-                        <img src="{{ asset('images/about/img2.jpg') }}" class="abt-img img-cover equal-col" alt="" style="height: 479px;">
                     </div>
                 </div>
             </div>
