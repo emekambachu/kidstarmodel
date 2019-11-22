@@ -326,6 +326,123 @@
                             </div>
                         </li>
 
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall24.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall24.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall25.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall25.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall26.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall26.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall27.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall27.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall28.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall28.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall29.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall29.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall30.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall30.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall31.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall31.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6" style="position: absolute; left: 466px; top: 630px;">
+                            <div class="dlab-box dlab-gallery-box">
+                                <div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+                                    <a href="javascript:void(0);"> <img src="{{ asset('images/gallery/main/gall32.jpg') }}" alt=""> </a>
+                                    <div class="overlay-bx">
+                                        <div class="overlay-icon">
+                                            <a class="mfp-link" title="Image Title Come Here" href="{{ asset('images/gallery/main/gall32.jpg') }}"> <i class="ti-fullscreen"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                     </ul>
                 </div>
             </div>

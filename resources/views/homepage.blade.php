@@ -422,6 +422,7 @@
     <!-- Gallery -->
     <div class="section-full content-inner-2 our-portfolio" style="background-image:url({{ asset('images/background/bg6.jpg') }}); background-size: cover;">
         <div class="container">
+
             <div class="section-head text-black text-center m-b20">
                 <h2 class="text-primary m-b10" style="font-family: 'Courgette', cursive;">Gallery</h2>
                 <div class="dlab-separator-outer m-b0">
@@ -507,7 +508,13 @@
 
                     </li>
                 </ul>
+
+                <div class="text-center" style="width: auto;">
+                    <a href="{{ url('gallery') }}" class="site-button-secondry">Visit Gallery</a>
+                </div>
+
             </div>
+
         </div>
     </div>
     <!-- Why Chose Us End -->
