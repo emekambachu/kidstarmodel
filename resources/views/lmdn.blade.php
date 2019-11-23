@@ -5,15 +5,6 @@
 @stop
 
 @section('content')
-
-    <div id="ac-wrapper" style='display:none'>
-        <div id="popup">
-            <button class="btn btn-sm btn-primary" onclick="PopUp('hide')">
-                <i class="fa fa-close"></i>
-            </button>
-        </div>
-    </div>
-
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- Main Slider -->
@@ -212,80 +203,80 @@
 
                         </li>
 
-                        <li data-index="rs-300" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <!-- MAIN IMAGE -->
-                            <img src="{{ asset('images/lmdn/slides/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                            <div class="tp-caption tp-shape  tp-shapewrapper bg-primary tp-resizeme"
-                                 id="slide-300-layer-1"
-                                 data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
-                                 data-y="['middle','middle','middle','middle']" data-voffset="['-1','-1','0','0']"
-                                 data-width="100"
-                                 data-height="5"
-                                 data-visibility="['on','on','off','off']"
-                                 data-whitespace="nowrap"
-                                 data-type="shape"
-                                 data-responsive_offset="off"
-                                 data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'
-                                 data-textAlign="['left','left','left','left']"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-paddingright="[0,0,0,0]"
-                                 data-paddingbottom="[0,0,0,0]"
-                                 data-paddingleft="[0,0,0,0]" style="z-index: 15;border-color:rgba(0, 0, 0, 0.50);border-width:0px; border-radius:2px;"> </div>
-                            <!-- LAYER NR. 3 -->
-                            <div class="tp-caption tp-resizeme text-primary"
-                                 id="slide-300-layer-2"
-                                 data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
-                                 data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-70','-60']"
-                                 data-fontsize="['65','48','42','36']"
-                                 data-lineheight="['80','60','60','40']"
-                                 data-width="none"
-                                 data-height="none"
-                                 data-type="text"
-                                 data-responsive_offset="off"
-                                 data-frames='[{"delay":"+500","split":"chars","splitdelay":0.05000000000000000277555756156289135105907917022705078125,"speed":2000,"split_direction":"forward","frame":"0","from":"opacity:0;","color":"#000000","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":2000,"frame":"999","color":"transparent","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                 data-textAlign="['left','left','left','left']"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-paddingright="[0,0,0,0]"
-                                 data-paddingbottom="[0,0,0,0]"
-                                 data-paddingleft="[0,0,0,0]"
-                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">Become a Kidstar Model</div>
+{{--                        <li data-index="rs-300" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">--}}
+{{--                            <!-- MAIN IMAGE -->--}}
+{{--                            <img src="{{ asset('images/lmdn/slides/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>--}}
+{{--                            <div class="tp-caption tp-shape  tp-shapewrapper bg-primary tp-resizeme"--}}
+{{--                                 id="slide-300-layer-1"--}}
+{{--                                 data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"--}}
+{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['-1','-1','0','0']"--}}
+{{--                                 data-width="100"--}}
+{{--                                 data-height="5"--}}
+{{--                                 data-visibility="['on','on','off','off']"--}}
+{{--                                 data-whitespace="nowrap"--}}
+{{--                                 data-type="shape"--}}
+{{--                                 data-responsive_offset="off"--}}
+{{--                                 data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'--}}
+{{--                                 data-textAlign="['left','left','left','left']"--}}
+{{--                                 data-paddingtop="[0,0,0,0]"--}}
+{{--                                 data-paddingright="[0,0,0,0]"--}}
+{{--                                 data-paddingbottom="[0,0,0,0]"--}}
+{{--                                 data-paddingleft="[0,0,0,0]" style="z-index: 15;border-color:rgba(0, 0, 0, 0.50);border-width:0px; border-radius:2px;"> </div>--}}
+{{--                            <!-- LAYER NR. 3 -->--}}
+{{--                            <div class="tp-caption tp-resizeme text-primary"--}}
+{{--                                 id="slide-300-layer-2"--}}
+{{--                                 data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"--}}
+{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-70','-60']"--}}
+{{--                                 data-fontsize="['65','48','42','36']"--}}
+{{--                                 data-lineheight="['80','60','60','40']"--}}
+{{--                                 data-width="none"--}}
+{{--                                 data-height="none"--}}
+{{--                                 data-type="text"--}}
+{{--                                 data-responsive_offset="off"--}}
+{{--                                 data-frames='[{"delay":"+500","split":"chars","splitdelay":0.05000000000000000277555756156289135105907917022705078125,"speed":2000,"split_direction":"forward","frame":"0","from":"opacity:0;","color":"#000000","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":2000,"frame":"999","color":"transparent","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--                                 data-textAlign="['left','left','left','left']"--}}
+{{--                                 data-paddingtop="[0,0,0,0]"--}}
+{{--                                 data-paddingright="[0,0,0,0]"--}}
+{{--                                 data-paddingbottom="[0,0,0,0]"--}}
+{{--                                 data-paddingleft="[0,0,0,0]"--}}
+{{--                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">Become a Kidstar Model</div>--}}
 
-                            <div class="tp-caption tp-resizeme text-primary"
-                                 id="slide-300-layer-3"
-                                 data-x="['left','left','center','center']" data-hoffset="['50','50','-50','-50']"
-                                 data-y="['middle','middle','middle','middle']" data-voffset="['-1','-1','-30','-30']"
-                                 data-fontsize="['65','48','42','36']"
-                                 data-lineheight="['80','60','60','40']"
-                                 data-width="['auto']"
-                                 data-height="['auto']"
-                                 data-type="text"
-                                 data-responsive_offset="on"
-                                 data-frames='[{"delay":"+500","split":"chars","splitdelay":0.05000000000000000277555756156289135105907917022705078125,"speed":2000,"split_direction":"forward","frame":"0","from":"opacity:0;","color":"#000000","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":2000,"frame":"999","color":"transparent","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                 data-textAlign="['left','left','left','left']"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-paddingright="[0,0,0,0]"
-                                 data-paddingbottom="[0,0,0,0]"
-                                 data-paddingleft="[110,110,110,110]"
-                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">Register now</div>
+{{--                            <div class="tp-caption tp-resizeme text-primary"--}}
+{{--                                 id="slide-300-layer-3"--}}
+{{--                                 data-x="['left','left','center','center']" data-hoffset="['50','50','-50','-50']"--}}
+{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['-1','-1','-30','-30']"--}}
+{{--                                 data-fontsize="['65','48','42','36']"--}}
+{{--                                 data-lineheight="['80','60','60','40']"--}}
+{{--                                 data-width="['auto']"--}}
+{{--                                 data-height="['auto']"--}}
+{{--                                 data-type="text"--}}
+{{--                                 data-responsive_offset="on"--}}
+{{--                                 data-frames='[{"delay":"+500","split":"chars","splitdelay":0.05000000000000000277555756156289135105907917022705078125,"speed":2000,"split_direction":"forward","frame":"0","from":"opacity:0;","color":"#000000","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":2000,"frame":"999","color":"transparent","to":"opacity:0;","ease":"Power3.easeInOut"}]'--}}
+{{--                                 data-textAlign="['left','left','left','left']"--}}
+{{--                                 data-paddingtop="[0,0,0,0]"--}}
+{{--                                 data-paddingright="[0,0,0,0]"--}}
+{{--                                 data-paddingbottom="[0,0,0,0]"--}}
+{{--                                 data-paddingleft="[110,110,110,110]"--}}
+{{--                                 style="z-index: 7; white-space: nowrap; font-size: 65px; line-height: 80px; font-weight: 800; letter-spacing: 0px; font-family: 'Courgette', cursive; color: #fff;">Register now</div>--}}
 
-                            <div class="tp-caption tp-resizeme"
-                                 id="slide-300-layer-6"
-                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"
-                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"
-                                 data-width="['auto']"
-                                 data-height="['auto']"
-                                 data-type="button"
-                                 data-actions=''
-                                 data-responsive_offset="on"
-                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
-                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                 data-paddingtop="[0]"
-                                 data-paddingright="[0]"
-                                 data-paddingbottom="[0]"
-                                 data-paddingleft="[0]"
-                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>
-                            </div>
-                        </li>
+{{--                            <div class="tp-caption tp-resizeme"--}}
+{{--                                 id="slide-300-layer-6"--}}
+{{--                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"--}}
+{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"--}}
+{{--                                 data-width="['auto']"--}}
+{{--                                 data-height="['auto']"--}}
+{{--                                 data-type="button"--}}
+{{--                                 data-actions=''--}}
+{{--                                 data-responsive_offset="on"--}}
+{{--                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'--}}
+{{--                                 data-textAlign="['inherit','inherit','inherit','inherit']"--}}
+{{--                                 data-paddingtop="[0]"--}}
+{{--                                 data-paddingright="[0]"--}}
+{{--                                 data-paddingbottom="[0]"--}}
+{{--                                 data-paddingleft="[0]"--}}
+{{--                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>--}}
+{{--                            </div>--}}
+{{--                        </li>--}}
 
                     </ul>
                     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
@@ -298,129 +289,156 @@
                 <div class="row">
                     <div class="col-lg-5 m-b30 align-self-center">
                         <div class="dis-tbl-cell  m-b30">
-                            <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive;">About Kidstar</h2>
-                            <h6 class="fw7 m-b15">Kid Star Model is a modeling/fashion and design outfit in Port Harcourt with a high motive of spreading its principles all over the country and the world at large. We are the first Kids Modeling agency in Nigeria and we are very much focussed on giving the kids an early start so they can reach the zenith of goals and career while still in their prime.</h6>
-                            <p class="fw7 m-b15">This is why we teach them finesse, good morals, extra-curricular activities, poise and art of fashion and design especially in the African sense of beauty. The age range for our models is 5 - 11.</p>
-
-                            <a href="{{ url('about-us') }}" class="site-button-secondry ">More <i class="ti-arrow-right m-l10"></i></a>
+                            <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive; color:#7C5087;">LMDN First Runner Up</h2>
+                            <h4 class="fw7 m-b15">Queen Best Christopher</h4>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1">
-                        <div class="img-collage">
-                            <div class="coll-1"><img src="{{ asset('images/collage/pic1.jpg') }}" alt=""></div>
-                            <div class="coll-2"><img src="{{ asset('images/collage/pic2.jpg') }}" alt=""></div>
-                            <div class="coll-3"><img src="{{ asset('images/collage/pic3.jpg') }}" alt=""></div>
-                            <div class="coll-4"><img src="{{ asset('images/collage/pic4.jpg') }}" alt=""></div>
-                        </div>
+                        <img src="{{ asset('images/lmdn/first_runner.jpg') }}" alt="lmdn first runner up">
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Gallery -->
-        <div class="section-full content-inner-2 our-portfolio" style="background-image:url({{ asset('images/background/bg6.jpg') }}); background-size: cover;">
+        <div class="section-full bg-white content-inner-2" style="background-image:url({{ asset('images/background/bg11.jpg') }}); background-size: cover;">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 offset-lg-1">
+                        <img src="{{ asset('images/lmdn/crowned_winner.jpg') }}" alt="lmdn first runner up">
+                    </div>
+
+                    <div class="col-lg-5 m-b30 align-self-center">
+                        <div class="dis-tbl-cell  m-b30">
+                            <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive; color:#7C5087;">LMDN Crowned Winner</h2>
+                            <h4 class="fw7 m-b15">Queen Phoebe Pepple</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
             <div class="container">
 
-                <div class="section-head text-black text-center m-b20">
-                    <h2 class="text-primary m-b10" style="font-family: 'Courgette', cursive;">Gallery</h2>
+                <div class="section-head text-black text-center">
+                    <h2 class="text-primary m-b10">LMDN 2019 BEAUTY OF AFRICAN CULTURE</h2>
                     <div class="dlab-separator-outer m-b0">
                         <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
                     </div>
-                    <p class="m-b0">Take a peek at our gallery</p>
+                    <p>Little miss damsel Nigeria showcases the beauty of Africa we love our culture. As a parent it is necessary to educate your child about the importance and values of African Culture.</p>
                 </div>
 
-                <div class="clearfix">
-                    <ul id="masonry" class="portfolio-box dlab-gallery-listing gallery-grid-4 gallery row lightgallery">
+                <div class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
 
-                        <li class="image-1 image-4 card-container col-lg-3 col-md-3 col-sm-3">
-
-                            <div class="dlab-box">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/gall1.png') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall1.png') }}" data-src="{{ asset('images/gallery/image-1.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/queen_phoebe_africa.png') }}" alt="Queen Phoebe representing South Africa"></div>
+                            <div class="dlab-title-bx p-a10">
+                                <h5 class="text-black m-a0">
+                                    <a href="">Queen Phoebe representing South Africa</a></h5>
                             </div>
+                        </div>
+                    </div>
 
-                            <div class="dlab-box p-tb30 image-2">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/gall2.png') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall2.png') }}" data-src="{{ asset('images/gallery/image-2.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/queen_angel_egypt.png') }}" alt="Queen Angel representing EGYPT"></div>
+                            <div class="dlab-title-bx p-a10">
+                                <h5 class="text-black m-a0">
+                                    <a href="">Queen Angel representing EGYPT</a></h5>
                             </div>
-                        </li>
+                        </div>
+                    </div>
 
-                        <li class="image-2 card-container col-lg-6 col-md-6 col-sm-6">
-                            <div class="dlab-box m-b30">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img src="{{ asset('images/gallery/gall5.png') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-                                        <span data-exthumbimage="{{ asset('images/gallery/thumb/gall5.png') }}" data-src="{{ asset('images/gallery/image-3.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-                                            <i class="ti-fullscreen"></i>
-                                        </span>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/queen_noga_tunisia.png') }}" alt="Queen Noga representing Tunisia "></div>
+                            <div class="dlab-title-bx p-a10">
+                                <h5 class="text-black m-a0"><a href="">Queen Noga representing Tunisia</a></h5>
                             </div>
-                        </li>
+                        </div>
+                    </div>
 
-                        <li class="image-3 image-4 card-container col-lg-3 col-md-3 col-sm-3">
-
-                            <div class="dlab-box m-b30">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/gall4.png') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall4.png') }}" data-src="images/gallery/image-4.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/queen_emikhe_sierra_leonne.png') }}" alt="queen_emikhe_sierra_leonne"></div>
+                            <div class="dlab-title-bx p-a10">
+                                <h5 class="text-black m-a0"><a href="">Queen Emikhe Sierra Leonne</a></h5>
                             </div>
+                        </div>
+                    </div>
 
-                            <div class="dlab-box">
-                                <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                    <img width="385" height="385" src="{{ asset('images/gallery/gall3.png') }}" alt="">
-                                    <div class="overlay-bx">
-                                        <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall3.png') }}" data-src="images/gallery/image-5.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
+
+                <p class="text-black text-center section-head">Culture refers to the totality of the pattern of behaviour of a particular group of people. It includes everything that makes them distinct from any other group of people for instance, their greeting habits, dressing, social norms and taboos, food, songs and dance patterns, rites of passages from birth, through marriage to death, traditional occupations, religious as well as philosophical beliefs.</p>
+
+            </div>
+        </div>
+
+
+        <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+            <div class="container">
+
+                <div class="section-head text-black text-center">
+                    <h2 class="text-primary m-b10">LMDN 2019 NIGERIA CULTURE. Our Heritage, Our Pride.</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>Nigerian culture is as multi-ethnic as the people in Nigeria. Little  miss damsel Nigeria still cherish their traditional languages, music, dance and literature. Nigeria comprises of three large ethnic groups, which are Yoruba, Hausa-Fulani and Igbo. However there are other ethnic groups as well. Thus culture in Nigeria is most positively multi-ethnic which gives a lot of value to different types of arts, which primarily include ivory carving, grass weaving, wood carving, leather and calabash. Pottery, painting, cloth weaving and glass and metal works.</p>
+                </div>
+
+                <div class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/cult1.png') }}" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/cult2.png') }}" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/cult3.png') }}" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/cult4.png') }}" alt="">
                             </div>
+                        </div>
+                    </div>
 
-                        </li>
-                    </ul>
-
-                    <div class="text-center" style="width: auto;">
-                        <a href="{{ url('gallery') }}" class="site-button-secondry">Visit Gallery</a>
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/culture/cult5.png') }}" alt="">
+                            </div>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
         </div>
-        <!-- Why Chose Us End -->
+
 
     </div>
     <!-- Content END-->
-@stop
-
-@section('scripts')
-
 @stop
