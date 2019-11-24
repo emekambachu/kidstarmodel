@@ -7,7 +7,7 @@
     <meta name="keywords" content="kidstar modelling agency, kidstar models porthacourt" />
     <meta name="author" content="" />
     <meta name="robots" content="" />
-    <meta name="description" content="kidstar modeling agency, the first kid star modeling agency in Nigeria" />
+    <meta name="description" content="@yield('meta-desc') kidstar modeling agency, the first kid star modeling agency in Nigeria" />
     <meta property="og:title" content="Kidstar models" />
     <meta property="og:description" content="kidstar modeling agency, the first kid star modeling agency in Nigeria" />
     <meta property="og:image" content="kidstar modeling agency port hacourt Nigeria" />

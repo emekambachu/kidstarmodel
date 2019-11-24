@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('meta-desc')
+    little miss damsel nigeria
+    @stop
+
 @section('title')
     Little Miss Damsel Nigeria
 @stop
@@ -435,6 +439,199 @@
 
                 </div>
 
+            </div>
+        </div>
+
+        <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+            <div class="container">
+
+                <div class="section-head text-black text-center">
+                    <h2 class="text-primary m-b10">LMDN CAMPING 2019</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>
+                        <strong>The advantages of LMDN camp</strong><br>
+                        <strong>SOCIALIZATION:</strong><br>
+                        Little  miss damsel Nigeria Camping alone is plenty of fun, because the children will enjoy a unique experience together that will help them keep a healthy, happy relationship. Socializing can extend their lifespan and delay memory problems according to research published in the American Journal of Public Health, and apart from the medical benefits, a few close relationships make life more fun.<br>
+                        <strong>Things to benefit</strong><br>
+                        IMPROVED MOODS, LESS STRESS, EXERCISE, A GOOD NIGHT'S SLEEP, GOOD FOOD, NEW CHALLENGES and MEDITATION<br><br>
+
+                        <strong>LMDN TRAINING:</strong><br>
+                        we teach them how to glamour, runway and feel comfortable on the stage to showcase your talent and become a winner.
+                    </p>
+                </div>
+
+                <div class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp1.jpg') }}" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp3.jpg') }}" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp7.jpg') }}" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp5.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp4.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp6.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/camping/camp8.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+            <div class="container">
+
+                <div class="section-head text-black text-center">
+                    <h2 class="text-primary m-b10">LMDN Fashion Show 2019 Runway</h2>
+                    <div class="dlab-separator-outer m-b0">
+                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>This is a melting pot of super designers, African designers and Nigerian designers all converging on one stage to a vast and diverse audience.</p>
+                </div>
+
+                <div class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/fashion/fash1.jpg') }}" alt="lmdn fashion show 2019 runway"></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/fashion/fash2.jpg') }}" alt="lmdn fashion show 2019 runway"></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/fashion/fash3.jpg') }}" alt="lmdn fashion show 2019 runway"></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/fashion/fash4.jpg') }}" alt="lmdn fashion show 2019 runway">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="dlab-box text-center team-box">
+                            <div class="dlab-media">
+                                <img width="300" height="300" src="{{ asset('images/lmdn/fashion/fash5.jpg') }}" alt="lmdn fashion show 2019 runway">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="section-full content-inner overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}), url({{ asset('images/background/bg2.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+            <div class="container">
+
+                <div class="section-head text-black">
+                    <h2 class="text-primary m-b10 text-center">About Little Miss Damsel Nigeria</h2>
+                    <div class="dlab-separator-outer m-b0 text-center">
+                        <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+                    </div>
+                    <p>
+                        "Little Miss Damsel Nigeria", is a beauty, intellectual and didactic Kids pageant that campaigns against child molestation, rape and child labour. It also aims at promoting female child education, encouraging women in the areas of business and career perhaps promoting gender equality worldwide.<br><br>
+                        We hereby, honourably bring to your notice the LMDN 2019. The third edition which holds on 21st April 2019 in Port Harcourt Rivers State Nigeria.<br><br>
+
+                        This event, particularly is focussed on introducing serious minded adolescents to the rationale behind the famous adage which says that "beauty without brain is of no durable value" LMDN also features academic competitions, moral sensitization, as well as runway catwalk and showcasing a plethora of African fabrics design and hairstyles which brings to bare the many opportunities available in Nigerian economy. We will showcase talents from singing, dancing and acting.<br><br>
+
+                        The event will feature top academicians in the educational institutions in Nigeria, recognize top government officials, top artist, music dance, comedy and lots more<br><br>
+
+                        Lmdn 2019 was bigger and better<br><br>
+
+                        <strong>1.	AUDITION:</strong><br>
+                        the audition which held in port Harcourt was bigger than 2018 over 150 parents punched the form for their children
+
+                    </p>
+                </div>
+
+                <div class="blog-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1">
+                    <div class="item">
+                        <div class="blog-post blog-grid blog-style-1">
+                            <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="">
+                                    <img width="700" height="500" src="{{ asset('images/lmdn/audition/aud1.png') }}" alt=""></a> </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-post blog-grid blog-style-1">
+                            <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="">
+                                    <img width="700" height="500" src="{{ asset('images/lmdn/audition/aud2.png') }}" alt=""></a> </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-post blog-grid blog-style-1">
+                            <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="">
+                                    <img width="700" height="500" src="{{ asset('images/lmdn/audition/aud3.png') }}" alt=""></a> </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-post blog-grid blog-style-1">
+                            <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#">
+                                    <img width="700" height="500" src="{{ asset('images/lmdn/audition/aud4.png') }}" alt=""></a> </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 

@@ -104,7 +104,7 @@
                 <ul>  <!-- SLIDE  -->
                     <li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('images/main-slider/slide1.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('images/main-slider/slide4.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="{{ asset('images/main-slider/slide4.jpg') }}" alt="kidstar models porthacourt" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <div class="tp-caption tp-shape tp-shapewrapper bg-primary tp-resizeme"
                              id="slide-100-layer-1"
                              data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
@@ -198,7 +198,7 @@
 
                     <li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('images/main-slider/slide1.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="{{ asset('images/main-slider/slide1.jpg') }}" alt="kidstar models porthacourt" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <div class="tp-caption tp-shape  tp-shapewrapper bg-primary tp-resizeme"
                              id="slide-200-layer-1"
                              data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']"
@@ -404,7 +404,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col" style="height: 479px;">
-                    <img src="{{ asset('images/about/img1.jpg') }}" class="abt-img img-cover equal-col" alt="" style="height: 479px;">
+                    <img src="{{ asset('images/about/img1.jpg') }}" class="abt-img img-cover equal-col" alt="about kidstar models" style="height: 479px;">
                 </div>
                 <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 equal-col dis-tbl" style="height: 479px;">
                     <div class="p-a30 text-white dis-tbl-cell wow fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
@@ -413,7 +413,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col" style="height: 479px;">
-                    <img src="{{ asset('images/about/img2.jpg') }}" class="abt-img img-cover equal-col" alt="" style="height: 479px;">
+                    <img src="{{ asset('images/about/img2.jpg') }}" class="abt-img img-cover equal-col" alt="about kidstar models" style="height: 479px;">
                 </div>
             </div>
         </div>
@@ -438,7 +438,7 @@
 
                         <div class="dlab-box">
                             <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                <img width="385" height="385" src="{{ asset('images/gallery/gall1.png') }}" alt="">
+                                <img width="385" height="385" src="{{ asset('images/gallery/gall1.png') }}" alt="kidstar modelling agency">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
 											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall1.png') }}" data-src="{{ asset('images/gallery/image-1.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
@@ -451,7 +451,7 @@
 
                         <div class="dlab-box p-tb30 image-2">
                             <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                <img width="385" height="385" src="{{ asset('images/gallery/gall2.png') }}" alt="">
+                                <img width="385" height="385" src="{{ asset('images/gallery/gall2.png') }}" alt="kidstar modelling agency">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
 											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall2.png') }}" data-src="{{ asset('images/gallery/image-2.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
@@ -466,7 +466,7 @@
                     <li class="image-2 card-container col-lg-6 col-md-6 col-sm-6">
                         <div class="dlab-box m-b30">
                             <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                <img src="{{ asset('images/gallery/gall5.png') }}" alt="">
+                                <img src="{{ asset('images/gallery/gall5.png') }}" alt="kidstar modelling agency">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
                                         <span data-exthumbimage="{{ asset('images/gallery/thumb/gall5.png') }}" data-src="{{ asset('images/gallery/image-3.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
@@ -482,7 +482,7 @@
 
                         <div class="dlab-box m-b30">
                             <div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-                                <img width="385" height="385" src="{{ asset('images/gallery/gall4.png') }}" alt="">
+                                <img width="385" height="385" src="{{ asset('images/gallery/gall4.png') }}" alt="kidstar modelling agency">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
 											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall4.png') }}" data-src="images/gallery/image-4.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
