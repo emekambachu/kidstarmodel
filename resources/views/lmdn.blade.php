@@ -420,7 +420,3 @@
     </div>
     <!-- Content END-->
 @stop
-
-@section('scripts')
-
-@stop
