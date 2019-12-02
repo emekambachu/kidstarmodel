@@ -291,6 +291,25 @@
         <div class="section-full bg-white content-inner-2" style="background-image:url({{ asset('images/background/bg11.jpg') }}); background-size: cover;">
             <div class="container">
                 <div class="row">
+
+                    <div class="col-lg-6 offset-lg-1">
+                        <img src="{{ asset('images/lmdn/crowned_winner.jpg') }}" alt="lmdn crowned winner">
+                    </div>
+
+                    <div class="col-lg-5 m-b30 align-self-center">
+                        <div class="dis-tbl-cell  m-b30">
+                            <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive; color:#7C5087;">LMDN Crowned Winner</h2>
+                            <h4 class="fw7 m-b15">Queen Phoebe Pepple</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section-full bg-white content-inner-2" style="background-image:url({{ asset('images/background/bg11.jpg') }}); background-size: cover;">
+            <div class="container">
+                <div class="row">
                     <div class="col-lg-5 m-b30 align-self-center">
                         <div class="dis-tbl-cell  m-b30">
                             <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive; color:#7C5087;">LMDN First Runner Up</h2>
@@ -309,20 +328,19 @@
                 <div class="row">
 
                     <div class="col-lg-6 offset-lg-1">
-                        <img src="{{ asset('images/lmdn/crowned_winner.jpg') }}" alt="lmdn first runner up">
+                        <img src="{{ asset('images/lmdn/second_runner.jpg') }}" alt="lmdn crowned winner">
                     </div>
 
                     <div class="col-lg-5 m-b30 align-self-center">
                         <div class="dis-tbl-cell  m-b30">
-                            <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive; color:#7C5087;">LMDN Crowned Winner</h2>
-                            <h4 class="fw7 m-b15">Queen Phoebe Pepple</h4>
+                            <h2 class="m-t0 m-b10" style="font-family: 'Courgette', cursive; color:#7C5087;">LMDN Second Runner Up</h2>
+                            <h4 class="fw7 m-b15">Queen Noga David</h4>
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
-
 
         <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
             <div class="container">
