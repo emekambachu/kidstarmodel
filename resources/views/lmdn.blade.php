@@ -858,14 +858,14 @@
                 <!-- right part start -->
                 <div class="col-lg-4 col-md-4 d-flex">
                     <div class="p-a30 border m-b30 contact-area border-1 align-self-stretch ">
-                        <h4 class="m-b10" style="font-family: 'Courgette', cursive;">Steps to become a kidstar model</h4>
+                        <h4 class="m-b10" style="font-family: 'Courgette', cursive;">Steps to become a Little Miss Damsel</h4>
                         <h6>Account Details</h6>
                         <p>Little Miss Damsel Nigeria<br>
                             Account number<br>
                             0432091606<br>
                             GTB</p><br><br>
 
-                        <p><strong>Step 1:</strong><br> Pay a sum of 30,000 Naira to our Nigerian Account, or $35 to our Dollar account. Above are our account details</p>
+                        <p><strong>Step 1:</strong><br> Pay a sum of 5000 Naira to our Nigerian Account. Above are our account details</p>
                         <p><strong>Step 2:</strong><br> Fill in your details accurately and upload a scanned copy of your proof of payment, this will make our selection more efficient.</p>
                         <p><strong>Step 3:</strong><br> Once payment has been approved, you would be sent a confirmation email.</p>
                         <p>For more clarity please call our contacts at the bottom of the page or send us an email at info@kidstarmodels.com</p><br><br>
