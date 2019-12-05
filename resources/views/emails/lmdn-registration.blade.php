@@ -1,5 +1,5 @@
 
-<img src="{{ asset('images/kidstar_models_logo.png') }}" width="100">
+<img src="{{ asset('images/lmdn/lmdn_logo.png') }}" width="100">
 
 <h3>Registration Complete</h3>
 
