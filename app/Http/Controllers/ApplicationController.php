@@ -73,6 +73,24 @@ class ApplicationController extends Controller
         return redirect('registration-complete');
     }
 
+
+    public function lmdnSignupForm(Request $request){
+
+        //Request data from fields
+        $input = $request->all();
+
+        Mail::send('emails.lmdn-registration', $input, function ($message) use ($input) {
+            $message->from('info@kidstarmodels.com', 'Little Miss Damsel Nigeria');
+            $message->to($input['parent_email'], $input['parent_surname'].' '.$input['parent_othernames'])->cc('info@kidstarmodels.com', 'kidstarmodels@gmail.com');
+            $message->replyTo('info@kidstarmodels.com', 'Little Miss Damsel Nigeria');
+            $message->subject('Your Application has been Submitted');
+        });
+
+        return redirect('registration-complete');
+
+    }
+
+
     /**
      * Display the specified resource.
      *

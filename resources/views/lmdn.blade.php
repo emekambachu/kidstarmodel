@@ -91,24 +91,24 @@
                                  style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('contact-us') }}" class="site-button button-md">Contact us</a>
                             </div>
 
-{{--                            <div class="tp-caption tp-resizeme"--}}
-{{--                                 id="slide-100-layer-6"--}}
-{{--                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"--}}
-{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"--}}
-{{--                                 data-width="['auto']"--}}
-{{--                                 data-height="['auto']"--}}
-{{--                                 data-type="button"--}}
-{{--                                 data-actions=''--}}
-{{--                                 data-responsive_offset="on"--}}
-{{--                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'--}}
-{{--                                 data-textAlign="['inherit','inherit','inherit','inherit']"--}}
-{{--                                 data-paddingtop="[0]"--}}
-{{--                                 data-paddingright="[0]"--}}
-{{--                                 data-paddingbottom="[0]"--}}
-{{--                                 data-paddingleft="[0]"--}}
-{{--                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family: 'Courgette', cursive; border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">--}}
-{{--                                <a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>--}}
-{{--                            </div>--}}
+                            <div class="tp-caption tp-resizeme"
+                                 id="slide-100-layer-6"
+                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"
+                                 data-width="['auto']"
+                                 data-height="['auto']"
+                                 data-type="button"
+                                 data-actions=''
+                                 data-responsive_offset="on"
+                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+                                 data-textAlign="['inherit','inherit','inherit','inherit']"
+                                 data-paddingtop="[0]"
+                                 data-paddingright="[0]"
+                                 data-paddingbottom="[0]"
+                                 data-paddingleft="[0]"
+                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family: 'Courgette', cursive; border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
+                                <a href="#signup" class="site-button-secondry button-md">Signup</a>
+                            </div>
 
                         </li>
 
@@ -187,23 +187,23 @@
                                  style="z-index: 10; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('contact-us') }}" class="site-button button-md">Contact us</a>
                             </div>
 
-{{--                            <div class="tp-caption tp-resizeme"--}}
-{{--                                 id="slide-200-layer-6"--}}
-{{--                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"--}}
-{{--                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"--}}
-{{--                                 data-width="['auto']"--}}
-{{--                                 data-height="['auto']"--}}
-{{--                                 data-type="button"--}}
-{{--                                 data-actions=''--}}
-{{--                                 data-responsive_offset="on"--}}
-{{--                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'--}}
-{{--                                 data-textAlign="['inherit','inherit','inherit','inherit']"--}}
-{{--                                 data-paddingtop="[0]"--}}
-{{--                                 data-paddingright="[0]"--}}
-{{--                                 data-paddingbottom="[0]"--}}
-{{--                                 data-paddingleft="[0]"--}}
-{{--                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="{{ url('registration') }}" class="site-button-secondry button-md">Register</a>--}}
-{{--                            </div>--}}
+                            <div class="tp-caption tp-resizeme"
+                                 id="slide-200-layer-6"
+                                 data-x="['left','left','center','center']" data-hoffset="['210','210','90','95']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['200','200','50','50']"
+                                 data-width="['auto']"
+                                 data-height="['auto']"
+                                 data-type="button"
+                                 data-actions=''
+                                 data-responsive_offset="on"
+                                 data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power0.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+                                 data-textAlign="['inherit','inherit','inherit','inherit']"
+                                 data-paddingtop="[0]"
+                                 data-paddingright="[0]"
+                                 data-paddingbottom="[0]"
+                                 data-paddingleft="[0]"
+                                 style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="#signup" class="site-button-secondry button-md">Signup</a>
+                            </div>
 
                         </li>
 
@@ -596,7 +596,8 @@
         </div>
 
 
-        <div class="section-full content-inner overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}), url({{ asset('images/background/bg2.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+        <div id="signup" class="section-full content-inner overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}), url({{ asset('images/background/bg2.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+
             <div class="container">
 
                 <div class="section-head text-black">
@@ -614,9 +615,8 @@
 
                         Lmdn 2019 was bigger and better<br><br>
 
-                        <strong>1.	AUDITION:</strong><br>
-                        the audition which held in port Harcourt was bigger than 2018 over 150 parents punched the form for their children
-
+                        <strong>1. AUDITION:</strong><br>
+                        the audition which held in port Harcourt was bigger than 2018 over 150 parents purchased the form for their children.
                     </p>
                 </div>
 
@@ -652,8 +652,343 @@
                 </div>
             </div>
         </div>
+        </div>
 
 
+    <div class="section-full content-inner bg-white contact-style-1">
+
+        <h2 class="text-primary m-b10 text-center">LMDN Sign up</h2>
+        <div class="dlab-separator-outer m-b0 text-center">
+            <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <!-- right part start -->
+                <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-a30 border m-b30 contact-area border-1 align-self-stretch ">
+                        <h4 class="m-b10" style="font-family: 'Courgette', cursive;">Steps to become a kidstar model</h4>
+                        <h6>Account Details</h6>
+                        <p>Little Miss Damsel Nigeria<br>
+                            Account number<br>
+                            0432091606<br>
+                            GTB</p><br><br>
+
+                        <p><strong>Step 1:</strong><br> Pay a sum of 30,000 Naira to our Nigerian Account, or $35 to our Dollar account. Above are our account details</p>
+                        <p><strong>Step 2:</strong><br> Fill in your details accurately and upload a scanned copy of your proof of payment, this will make our selection more efficient.</p>
+                        <p><strong>Step 3:</strong><br> Once payment has been approved, you would be sent a confirmation email.</p>
+                        <p>For more clarity please call our contacts at the bottom of the page or send us an email at info@kidstarmodels.com</p><br><br>
+
+                        <div class="m-t20">
+                            <ul class="dlab-social-icon dlab-social-icon-lg">
+                                <li><a href="https://web.facebook.com/kidstarmodels/?_rdc=1&_rdr" class="fa fa-facebook bg-primary"></a></li>
+                                <li><a href="https://www.instagram.com/kid_starmodels/" class="fa fa-instagram bg-primary"></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- right part END -->
+
+                <!-- Left part start -->
+                <div class="col-lg-8 col-md-8 m-b30">
+                    <div class="p-a30 bg-gray clearfix">
+                        <h4 style="font-family: 'Courgette', cursive;">Sign up</h4>
+
+                        @include('includes.alerts')
+
+                        <form method="post" action="lmdn-signup" enctype="multipart/form-data">
+                            @csrf
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Surname</label>
+                                        <div class="input-group">
+                                            <input name="surname" type="text" required="" class="form-control" placeholder="Surname">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label>Other Names</label>
+                                        <div class="input-group">
+                                            <input name="othernames" type="text" required="" class="form-control" placeholder="Other Names">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <label>Age</label>
+                                        <div class="input-group">
+                                            <input name="age" type="number" required="" class="form-control" placeholder="Age">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Health Issues?</label>
+                                        <div class="input-group">
+                                            <select name="health_issues" class="bootstrap-select" required>
+                                                <option value="0">No</option>
+                                                <option value="1">Yes</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Health Details (If yes ?)</label>
+                                        <div class="input-group">
+                                            <input name="health_details" type="text" class="form-control" placeholder="Health Details">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Nationality</label>
+                                        <div class="input-group">
+                                            <input name="nationality" type="text" required="" class="form-control" placeholder="Nationality">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>State</label>
+                                        <div class="input-group">
+                                            <input name="state" type="text" required="" class="form-control" placeholder="State">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <div class="input-group">
+                                            <input name="city" type="text" required="" class="form-control" placeholder="City">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Address</label>
+                                        <div class="input-group">
+                                            <input name="address" type="text" class="form-control" placeholder="Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Vital State</label>
+                                        <div class="input-group">
+                                            <input name="vital_state" type="text" class="form-control" placeholder="Vital State">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>School Name</label>
+                                        <div class="input-group">
+                                            <input name="school_name" type="text" required="" class="form-control" placeholder="School Name">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>School Class</label>
+                                        <div class="input-group">
+                                            <input name="school_class" type="text" required="" class="form-control" placeholder="School Class">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Height</label>
+                                        <div class="input-group">
+                                            <input name="height" type="text" required="" class="form-control" placeholder="Height">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Bust</label>
+                                        <div class="input-group">
+                                            <input name="bust" type="text" class="form-control" placeholder="Bust">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Waist</label>
+                                        <div class="input-group">
+                                            <input name="waist" type="text" class="form-control" placeholder="Waist">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Hips</label>
+                                        <div class="input-group">
+                                            <input name="hips" type="text" required="" class="form-control" placeholder="Hips">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>1. In one sentence, what does the word beauty mean to you?</label>
+                                        <div class="input-group">
+                                            <input name="question1" type="text" required="" class="form-control" placeholder="In one sentence, what does the word beauty mean to you?">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>2. In one sentence, what is the motivation behind becoming a model?</label>
+                                        <div class="input-group">
+                                            <input name="question2" type="text" required="" class="form-control" placeholder="In one sentence, what is the motivation behind becoming a model?">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>3. In one sentence, what do you think makes a person attractive?</label>
+                                        <div class="input-group">
+                                            <input name="question3" type="text" required="" class="form-control" placeholder="In one sentence, what do you think makes a person attractive?">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>4. Have you been in any other agency before? If yes, Name the year</label>
+                                        <div class="input-group">
+                                            <input name="question4" type="text" required="" class="form-control" placeholder="Have you been in any other agency before? If yes, Name the year">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>5. Why did you choose to be part of Kid Star Models Modeling Agency</label>
+                                        <div class="input-group">
+                                            <input name="question5" type="text" required="" class="form-control" placeholder="Why did you choose to be part of Kid Star Models Modeling Agency">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Parent Surname</label>
+                                        <div class="input-group">
+                                            <input name="parent_surname" type="text" required="" class="form-control" placeholder="Parent Surname">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Parent Other Names</label>
+                                        <div class="input-group">
+                                            <input name="parent_othernames" type="text" required="" class="form-control" placeholder="Parent Other Names">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Parent Mobile</label>
+                                        <div class="input-group">
+                                            <input name="parent_mobile" type="tel" required="" class="form-control" placeholder="Parent Mobile">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Parent Email</label>
+                                        <div class="input-group">
+                                            <input name="parent_email" type="email" class="form-control" required="" placeholder="Parent Email">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Parent Address</label>
+                                        <div class="input-group">
+                                            <input name="parent_address" type="text" required="" class="form-control" placeholder="Parent Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Payment Details ( E.g. Account Number, Account Name and Bank )</label>
+                                        <div class="input-group">
+                                            <input name="payment_details" type="text" required="" class="form-control" placeholder="Payment Details">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>I HEREBY AGREE THAT THE INFORMATION PROVIDED ABOVE IS TRUE AND ACCURATE AND WOULD LIKE TO BE INCLUDED IN THIS YEAR'S LMDN BEAUTY PAGEANT</label>
+                                        <div class="input-group">
+                                            <input name="terms1" type="checkbox" value="YES" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>I HEREBY AGREE THAT AT THE TIME OF THE SUBMISSION OF THIS APPLICATION, I AM AT LEAST 7 YEARS OLD AND NOT OLDER THAN 12 YEARS OLD</label>
+                                        <div class="input-group">
+                                            <input name="terms2" type="checkbox" value="YES" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>I HEREBY AGREE TO BE BOUND BY THE TERMS AND CONDITIONS STATED IN THE ELIGIBILITY CRITERIA FOR THE LMDN BEAUTY PAGEANT</label>
+                                        <div class="input-group">
+                                            <input name="terms3" type="checkbox" value="YES" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <button name="submit" type="submit" value="Submit" class="site-button"> <span>Submit</span> </button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- Left part END -->
+            </div>
+
+
+        </div>
     </div>
     <!-- Content END-->
 @stop
