@@ -27,6 +27,10 @@ Route::get('registration', function () {
     return view('register');
 });
 
+Route::get('lmdn-registration', function () {
+    return view('lmdn-registration');
+});
+
 Route::get('little-miss-damsel-nigeria', function () {
     return view('lmdn');
 });
