@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Application extends Model{
-
+class LMDNapplication extends Model
+{
     protected $fillable = [
         'image_id',
         'surname',

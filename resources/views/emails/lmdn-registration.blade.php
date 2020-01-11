@@ -46,7 +46,7 @@
 
     <strong>4. Have you been in any other agency before? If yes, Name the year?:</strong><br> {{ $question4 }}<br>
 
-    <strong>5. Why did you choose to be part of Kid Star Models Modeling Agency:</strong><br> {{ $question5 }}<br>
+    <strong>5. Why did you choose to be part of Little Miss Damsel Nigeria?:</strong><br> {{ $question5 }}<br>
 
     <strong>Parent Names:</strong> {{ $parent_surname }} {{ $parent_othernames }}<br>
 

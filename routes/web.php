@@ -11,6 +11,9 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('homepage');
 });
@@ -43,6 +46,7 @@ Route::post('submit-contact', 'WebsiteController@contactForm');
 
 Route::post('lmdn-signup', 'ApplicationController@lmdnSignupForm');
 
+
 Auth::routes();
 
 Route::get('/admin', 'AdminController@index')->name('admin');
@@ -50,7 +54,11 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 // Dashboard Page
 Route::get('admin/dashboard', 'AdminController@index')->name('admin-dashboard');
 
-//Manage Applications
+// LMDN Admin Dashboard Page
+Route::get('lmdn-admin/dashboard', 'AdminController@index')->name('lmdn-admin-dashboard');
+
+
+// Manage Applications
 // Application Resource Controller
 Route::resource('admin/applications', 'ApplicationController');
 
@@ -62,6 +70,24 @@ Route::get('applications/paid-applications', 'ApplicationController@paidApplicat
 
 // Pending Applications
 Route::get('applications/pending-applications', 'ApplicationController@pendingApplications')->name('pending-applications');
+
+Route::get('registration-complete', function () {
+    return view('registration-complete');
+});
+
+
+//Manage LMDN Applications
+// LMDN Application Resource Controller
+Route::resource('admin/lmdn-applications', 'LMDNapplicationController');
+
+// Fund User Form
+Route::post('/admin/lmdn-applications/approve/{id}', ['uses' => 'LMDNapplicationController@approve']);
+
+// Paid Applications
+Route::get('lmdn-applications/paid-applications', 'LMDNapplicationController@paidApplications')->name('lmdn-paid-applications');
+
+// Pending Applications
+Route::get('lmdn-applications/pending-applications', 'LMDNapplicationController@pendingApplications')->name('lmdn-pending-applications');
 
 Route::get('registration-complete', function () {
     return view('registration-complete');

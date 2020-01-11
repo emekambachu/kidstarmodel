@@ -40,6 +40,9 @@
                                 <a class="nav-link" href="{{ route('admin-dashboard') }}">Dashboard</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="{{ route('lmdn-admin-dashboard') }}">LMDN Dashboard</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('paid-applications') }}">Paid Applications</a>
                             </li>
                             <li class="nav-item">
