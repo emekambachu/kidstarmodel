@@ -6,6 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class LMDNapplication extends Model
 {
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'lmdnapplications';
+
     protected $fillable = [
         'image_id',
         'surname',

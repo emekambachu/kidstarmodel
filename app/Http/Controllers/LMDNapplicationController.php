@@ -151,7 +151,7 @@ class LMDNapplicationController extends Controller
                 ];
 
                 // Generate PDF
-                $pdf = PDF::loadView('documents.application_receipt', $data);
+                $pdf = PDF::loadView('documents.lmdn_application_receipt', $data);
 
                 Mail::send('emails.lmdn_application_approved', $data, function ($message) use ($data, $pdf) {
                     $message->from('lmdn@kidstarmodels.com', 'Little Miss Damsel Nigeria');
