@@ -48,6 +48,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('pending-applications') }}">Pending Applications</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('lmdn-paid-applications') }}">LMDN Paid Applications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('lmdn-pending-applications') }}">LMDN Pending Applications</a>
+                            </li>
                         @endauth
                     </ul>
 

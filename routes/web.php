@@ -55,7 +55,7 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 Route::get('admin/dashboard', 'AdminController@index')->name('admin-dashboard');
 
 // LMDN Admin Dashboard Page
-Route::get('lmdn-admin/dashboard', 'AdminController@index')->name('lmdn-admin-dashboard');
+Route::get('lmdn-admin/dashboard', 'AdminController@LMDNdashboard')->name('lmdn-admin-dashboard');
 
 
 // Manage Applications
@@ -89,8 +89,8 @@ Route::get('lmdn-applications/paid-applications', 'LMDNapplicationController@pai
 // Pending Applications
 Route::get('lmdn-applications/pending-applications', 'LMDNapplicationController@pendingApplications')->name('lmdn-pending-applications');
 
-Route::get('registration-complete', function () {
-    return view('registration-complete');
+Route::get('lmdn-registration-complete', function () {
+    return view('lmdn-registration-complete');
 });
 
 

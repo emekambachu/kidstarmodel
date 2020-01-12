@@ -63,10 +63,7 @@ class LMDNapplicationController extends Controller
             $message->subject('Your Application has been Submitted');
         });
 
-        //session notification
-        Session::flash('success',  'Application has been Submitted');
-
-        return redirect('registration-complete');
+        return redirect('lmdn-registration-complete');
     }
 
 

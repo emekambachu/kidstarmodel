@@ -237,7 +237,7 @@
 
                         @include('includes.alerts')
 
-                        <form method="post" action="lmdn-signup" enctype="multipart/form-data">
+                        <form method="post" action="{{ route('lmdn-applications.store') }}" enctype="multipart/form-data">
                             @csrf
                             <div class="row">
 

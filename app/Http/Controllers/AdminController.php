@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\LMDNapplication;
 use Illuminate\Http\Request;
 
 use App\User;
@@ -21,12 +22,23 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
-    {
+    public function index(){
+
         $applications = Application::paginate(15);
         $countAllApplications = Application::all()->count();
         $countPaidApplications = Application::where('paid', True)->count();
 
         return view('admin.index', compact('countAllApplications', 'countPaidApplications', 'applications'));
+
+    }
+
+    public function LMDNdashboard(){
+
+        $applications = LMDNapplication::paginate(15);
+        $countAllApplications = LMDNapplication::all()->count();
+        $countPaidApplications = LMDNapplication::where('paid', True)->count();
+
+        return view('admin.index', compact('countAllApplications', 'countPaidApplications', 'applications'));
+
     }
 }

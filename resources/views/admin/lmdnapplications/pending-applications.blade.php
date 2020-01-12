@@ -69,7 +69,7 @@
                             <td>
                                 @if($application->paid)
                                     <p class="text-success"><strong>PAID</strong></p>
-                                    <form method="POST" action="{{ action('ApplicationController@approve', $application->id) }}">
+                                    <form method="POST" action="{{ action('LMDNapplicationController@approve', $application->id) }}">
                                         @csrf
                                         <button type="submit" class="btn btn-warning btn-md">
                                             Disapprove
@@ -77,7 +77,7 @@
                                     </form>
                                 @else
                                     <p class="text-danger"><strong>PENDING</strong></p>
-                                    <form method="POST" action="{{ action('ApplicationController@approve', $application->id) }}">
+                                    <form method="POST" action="{{ action('LMDNapplicationController@approve', $application->id) }}">
                                         @csrf
                                         <button type="submit" class="btn btn-success btn-md">
                                             Approve
@@ -86,7 +86,7 @@
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ route('applications.show', $application->id) }}">
+                                <a href="{{ route('lmdn-applications.show', $application->id) }}">
                                     <button class="btn btn-warning btn-md">View</button>
                                 </a>
                             </td>
