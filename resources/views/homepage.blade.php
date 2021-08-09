@@ -50,7 +50,7 @@
             #popup {
                 background:url({{ asset('images/popup_image.png') }}) no-repeat center ;
                 width: 500px;
-                height: 500px;
+                height: 333px;
                 border: 5px solid #000;
                 border-radius: 25px;
                 -moz-border-radius: 25px;
@@ -68,7 +68,7 @@
             #popup {
                 background:url({{ asset('images/popup_image.png') }}) no-repeat center ;
                 width: 500px;
-                height: 500px;
+                height: 333px;
                 border: 5px solid #000;
                 border-radius: 25px;
                 -moz-border-radius: 25px;
@@ -419,14 +419,86 @@
         </div>
     </div>
 
+    <div class="section-full content-inner-2 overlay-white-middle"
+         style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+        <div class="container">
+
+            <div class="section-head text-black text-center">
+                <h2 class="text-primary m-b10" style="font-family: 'Courgette', cursive;">Fashion Show</h2>
+                <div class="dlab-separator-outer m-b0">
+                    <div class="dlab-separator text-primary style-icon">
+                        <i class="flaticon-spa text-primary"></i></div>
+                </div>
+                <p>
+                    Do you have what it takes to be a model?<br>
+                    Are you ready to become model?<br>
+                    Start up your passion with kid star models?<br>
+                    <strong>YOU ARE JUST AT THE RIGHT PLACE!</strong>
+                </p>
+            </div>
+
+            <div class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
+
+                <div class="item">
+                    <div class="dlab-box text-center team-box">
+                        <div class="dlab-media">
+                            <img width="300" height="300"
+                                 src="{{ asset('images/fashion-show/5.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dlab-box text-center team-box">
+                        <div class="dlab-media">
+                            <img width="300" height="300"
+                                 src="{{ asset('images/fashion-show/4.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dlab-box text-center team-box">
+                        <div class="dlab-media">
+                            <img width="300" height="300"
+                                 src="{{ asset('images/fashion-show/3.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dlab-box text-center team-box">
+                        <div class="dlab-media">
+                            <img width="300" height="300"
+                                 src="{{ asset('images/fashion-show/2.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dlab-box text-center team-box">
+                        <div class="dlab-media">
+                            <img width="300" height="300"
+                                 src="{{ asset('images/fashion-show/1.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <!-- Gallery -->
-    <div class="section-full content-inner-2 our-portfolio" style="background-image:url({{ asset('images/background/bg6.jpg') }}); background-size: cover;">
+    <div class="section-full content-inner-2 our-portfolio"
+         style="background-image:url({{ asset('images/background/bg6.jpg') }}); background-size: cover;">
         <div class="container">
 
             <div class="section-head text-black text-center m-b20">
                 <h2 class="text-primary m-b10" style="font-family: 'Courgette', cursive;">Gallery</h2>
                 <div class="dlab-separator-outer m-b0">
-                    <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+                    <div class="dlab-separator text-primary style-icon">
+                        <i class="flaticon-spa text-primary"></i></div>
                 </div>
                 <p class="m-b0">Take a peek at our gallery</p>
             </div>
@@ -441,7 +513,9 @@
                                 <img width="385" height="385" src="{{ asset('images/gallery/gall1.png') }}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall1.png') }}" data-src="{{ asset('images/gallery/image-1.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
+											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall1.png') }}"
+                                                  data-src="{{ asset('images/gallery/image-1.jpg') }}"
+                                                  class="icon-bx-xs check-km" title="Image Title Come Here 1">
 												<i class="ti-fullscreen"></i>
 											</span>
                                     </div>
@@ -454,9 +528,11 @@
                                 <img width="385" height="385" src="{{ asset('images/gallery/gall2.png') }}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall2.png') }}" data-src="{{ asset('images/gallery/image-2.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
+                                        <span data-exthumbimage="{{ asset('images/gallery/thumb/gall2.png') }}"
+                                              data-src="{{ asset('images/gallery/image-2.jpg') }}"
+                                              class="icon-bx-xs check-km" title="Image Title Come Here 1">
+                                            <i class="ti-fullscreen"></i>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -469,7 +545,9 @@
                                 <img src="{{ asset('images/gallery/gall5.png') }}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
-                                        <span data-exthumbimage="{{ asset('images/gallery/thumb/gall5.png') }}" data-src="{{ asset('images/gallery/image-3.jpg') }}" class="icon-bx-xs check-km" title="Image Title Come Here 1">
+                                        <span data-exthumbimage="{{ asset('images/gallery/thumb/gall5.png') }}"
+                                              data-src="{{ asset('images/gallery/image-3.jpg') }}"
+                                              class="icon-bx-xs check-km" title="Image Title Come Here 1">
                                             <i class="ti-fullscreen"></i>
                                         </span>
                                     </div>
@@ -485,7 +563,9 @@
                                 <img width="385" height="385" src="{{ asset('images/gallery/gall4.png') }}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall4.png') }}" data-src="images/gallery/image-4.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
+											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall4.png') }}"
+                                                  data-src="{{ asset('images/gallery/thumb/gall4.png') }}"
+                                                  class="icon-bx-xs check-km" title="Image Title Come Here 1">
 												<i class="ti-fullscreen"></i>
 											</span>
                                     </div>
@@ -498,9 +578,11 @@
                                 <img width="385" height="385" src="{{ asset('images/gallery/gall3.png') }}" alt="">
                                 <div class="overlay-bx">
                                     <div class="overlay-icon">
-											<span data-exthumbimage="{{ asset('images/gallery/thumb/gall3.png') }}" data-src="images/gallery/image-5.jpg" class="icon-bx-xs check-km" title="Image Title Come Here 1">
-												<i class="ti-fullscreen"></i>
-											</span>
+                                        <span data-exthumbimage="{{ asset('images/gallery/thumb/gall3.png') }}"
+                                              data-src="{{ asset('images/gallery/thumb/gall3.png') }}"
+                                              class="icon-bx-xs check-km" title="Image Title Come Here 1">
+                                            <i class="ti-fullscreen"></i>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -510,7 +592,8 @@
                 </ul>
 
                 <div class="text-center" style="width: auto;">
-                    <a href="{{ url('gallery') }}" class="site-button-secondry">Visit Gallery</a>
+                    <a href="{{ url('gallery') }}"
+                       class="site-button-secondry">Visit Gallery</a>
                 </div>
 
             </div>
