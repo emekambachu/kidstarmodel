@@ -145,8 +145,10 @@
                     </div>
                     <div class="dlab-topbar-right topbar-social">
                         <ul>
-                            <li><a href="https://web.facebook.com/kidstarmodels/?_rdc=1&_rdr" class="site-button-link facebook hover"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.instagram.com/kid_starmodels/" class="site-button-link instagram hover"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://web.facebook.com/kidstarmodels/?_rdc=1&_rdr"
+                                   class="site-button-link facebook hover"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/kid_starmodels/"
+                                   class="site-button-link instagram hover"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -160,7 +162,8 @@
                     <!-- website logo -->
                     <div class="logo-header mostion">
                         <a href="{{ url('/') }}" class="dez-page">
-                            <img src="{{ asset('images/lmdn/lmdn_logo.png') }}" width="50" alt="Little Miss Damsel Nigeria"></a>
+                            <img src="{{ asset('images/lmdn/lmdn_logo.png') }}"
+                                 width="50" alt="Little Miss Damsel Nigeria"></a>
                     </div>
                     <!-- nav toggle button -->
                     <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -478,7 +481,8 @@
         </div>
         <!-- Main Slider -->
 
-        <div class="section-full bg-white content-inner-2" style="background-image:url({{ asset('images/background/bg11.jpg') }}); background-size: cover;">
+        <div class="section-full bg-white content-inner-2"
+             style="background-image:url({{ asset('images/background/bg11.jpg') }}); background-size: cover;">
             <div class="container">
                 <div class="row">
 
@@ -532,7 +536,8 @@
             </div>
         </div>
 
-        <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+        <div class="section-full content-inner-2 overlay-white-middle"
+             style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
             <div class="container">
 
                 <div class="section-head text-black text-center">
@@ -595,7 +600,8 @@
         </div>
 
 
-        <div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+        <div class="section-full content-inner-2 overlay-white-middle"
+             style="background-image:url({{ asset('images/background/bg1.png') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
             <div class="container">
 
                 <div class="section-head text-black text-center">

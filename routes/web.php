@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\GithubDeploymentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -84,13 +85,17 @@ Route::resource('admin/lmdn-applications', 'LMDNapplicationController');
 Route::post('/admin/lmdn-applications/approve/{id}', ['uses' => 'LMDNapplicationController@approve']);
 
 // Paid Applications
-Route::get('lmdn-applications/paid-applications', 'LMDNapplicationController@paidApplications')->name('lmdn-paid-applications');
+Route::get('lmdn-applications/paid-applications', 'LMDNapplicationController@paidApplications')
+    ->name('lmdn-paid-applications');
 
 // Pending Applications
-Route::get('lmdn-applications/pending-applications', 'LMDNapplicationController@pendingApplications')->name('lmdn-pending-applications');
+Route::get('lmdn-applications/pending-applications', 'LMDNapplicationController@pendingApplications')
+    ->name('lmdn-pending-applications');
 
 Route::get('lmdn-registration-complete', function () {
     return view('lmdn-registration-complete');
 });
 
+//Github Deployment
+Route::post('github/deploy', [GithubDeploymentController::class, 'deploy']);
 
